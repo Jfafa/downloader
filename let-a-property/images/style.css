@@ -1,0 +1,57 @@
+﻿a:link {color:#0066cc}
+a:visited {color:#0066cc}
+a:hover {color:#808080}
+a:active {color:#0066cc}
+
+p{font-family:Tahoma, Arial, sans-serif; font-size: 10pt; margin-top:0px; margin-bottom:0px;}
+
+.mainbody{min-height:100%;width:100%;valign:top;padding-left:10px; padding-right:10px; margin-top: 0; margin-left: 0; valign:top; font-family: Tahoma, Arial, Sans-Serif; font-size: 11pt; color:000000; text-align:justify; line-height: 130%;}
+.mainbody td{valign:top;}
+.mainbody p{margin-bottom:10px;}
+
+body{bgproperties="fixed"; font-family:Arial, Tahoma, sans-serif; font-size: 10pt; border-collapse: collapse; padding:0px; margin-bottom:10px; margin-top: 0px; border:0px none; background-image:url('http://www.let-a-property.info/images/background.jpg'); background-color:#DADADA; margin-left:auto; margin-right:auto}
+.body{font-family:Arial, Tahoma, sans-serif; font-size: 11pt; color:000000; text-align:justify; line-height: 130%; width:100%; margin-top: 0px; margin-left: 0px; margin-right:0px;}
+
+h1{font-size:12pt; font-family:Tahoma, Arial, sans-serif; color:#0066cc; padding-left:10px;}
+
+.breadcrumb{text-align:left; width:100%; font-family :Tahoma, Arial, sans-serif; font-size: 10pt; color:#808080; text-align:left; text-align:left; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px; word-spacing: 0; vertical-align:text-top;}
+.breadcrumb p{font-family:Tahoma, Arial, sans-serif; font-size: 10pt; color:#808080; text-align:left; text-align:left; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px; word-spacing: 0; vertical-align:text-top;}
+
+.footer p{text-align:center; font-color:#999999; font-size: 8pt; margin-top: 10px; margin-bottom: 10px;}
+.center{text-align:center}
+
+
+
+.header td{valign:top;}
+
+
+.leftborder{padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px; font-family: Tahoma, Arial, Sans-Serif; font-size: 10pt; text-align:justify; font-size: 10pt; valign:top;}
+.leftborder p{line-height: 120%; font-family: Tahoma, Arial, Sans-Serif; font-size: 10pt; text-align:left; font-size: 10pt;}
+
+.rightborder p{line-height: 120%; font-family: Tahoma, Arial, Sans-Serif; font-size: 10pt; text-align:left; font-size: 10pt;}
+.rightborder{padding-right:20px; padding-top:0px; padding-bottom:0px; font-family: Tahoma, Arial, Sans-Serif; font-size: 10pt; text-align:left; font-size: 10pt; valign:top; }
+
+
+
+
+
+
+.county-results p{line-height: 120%; font-family: Tahoma, Arial, Sans-Serif; font-size: 10pt; text-align:left; font-size: 10pt; width:95%; padding:0px; margin:0px; cellpadding:0px;}
+.county-results{line-height: 120%; font-family: Tahoma, Arial, Sans-Serif; font-size: 10pt; text-align:left; font-size: 10pt; width:95%; padding:0px; margin:0px; cellpadding:0px;}
+.county-results td{font-size: 10pt;}
+
+.searchresults p{text-align:left; font-size: 10pt; padding-left:0px; padding-right:10px; padding-top:10px; padding-bottom:10px; font-size: 10pt;}
+.searchresults{text-align:left; font-size: 10pt; padding-left:0px; padding-right:10px; padding-top:10px; padding-bottom:10px; font-size: 10pt;}
+
+.sitemap p{margin-bottom:0px; margin-top:0px; font-size: 10pt; width:100%;}
+.sitemap{margin-bottom:0px; margin-top:0px; font-size: 10pt; width:100%;}
+.sitemap table{margin-bottom:0px; margin-top:0px; font-size: 10pt; width:100%;}
+
+.advertise-form{margin-bottom:0px; margin-top:0px;}
+.advertise-form p{margin-bottom:0px; margin-top:0px;}
+
+
+.index-text p{margin-top:0px; margin-bottom:0px; text-align:justify; width:100%;}
+
+li{font-size: 10pt; padding-bottom:0px; padding-top:0px; margin-top: 0px; margin-bottom: 0px; line-height:120%;}
+ul{line-height:120%; font-size: 10pt;}

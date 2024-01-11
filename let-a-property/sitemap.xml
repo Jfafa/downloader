@@ -1,0 +1,945 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://www.let-a-property.info</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/_scripts/search_4_wanted.php?page=1</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Aberdeenshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Angus.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Argyll-and-Bute.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Avon.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Ayrshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Banffshire-.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Bedfordshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Berkshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Buckinghamshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Caerphilly.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Cambridgeshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Carmarthenshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Ceredigion.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Cheshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Clackmannanshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Cleveland.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Clwyd.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Conwy.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Cornwall.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/County-Antrim.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/County-Down.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/County-Fermanagh.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/County-Londondery.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/County-Tyrone.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Cumbria.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Denbighshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Derbyshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Devon.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Dorset.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Dumfries-and-Galloway.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Dunbartonshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Durham.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Dyfed.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/East-Lothian.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/East-Sussex.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Essex.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Fife.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Flintshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Guernsey-Channel-Islands.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Gwent.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Gwynedd.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Hampshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Herefordshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Hertfordshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Inverclyde.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Inverness-Shire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Isle-of-Anglesey.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Isle-of-Man.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Isle-of-Scilly.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Isle-of-Wight.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Jersey-Channel-Islands.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Kent.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/London.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Manchester.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Merseyside.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Merthyr-Tydfil.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Middlesex.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Mid-Glamorgan.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Midlothian.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Monmouthshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Moray.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Norfolk.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Northamptonshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Northumberland.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Nottinghamshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Orkney-Islands.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Oxfordshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Pembrokeshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Perthshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Powys.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Renfrewshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Rutland.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Scottish-Borders.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Shetland-Islands.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Shropshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Somerset.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/South-Glamorgan.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Staffordshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Stirlingshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Torfaen.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Tyne-and-Wear.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Vale-of-Glamorgan.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Warwickshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/West-Dunbart.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Western-Isles.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/West-Glamorgan.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/West-Lothian.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/West-Midlands.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/West-Sussex.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Worcestershire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/counties/Yorkshire.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/forgot.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/index.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/login.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=1&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=10&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=11&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=12&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=14&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=15&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=16&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=17&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=18&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=19&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=20&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=21&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=22&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=23&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=24&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=25&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=26&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=27&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=28&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=3&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=31&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=32&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=33&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=34&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=35&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=36&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=4&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=5&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=6&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=7&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=8&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/accommodation/Tenant-Seeking-Accommodation.php?page=9&amp;&amp;resultsperpage=</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/addasite.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/building-insurance-uk.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/buy-to-let-insurance.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/buy-to-let-insurance-uk.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/commercial-property-insurance.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/dir/1/links.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/dir/10/links.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/dir/2/links.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/dir/3/links.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/dir/4/links.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/dir/5/links.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/dir/6/links.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/dir/7/links.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/dir/8/links.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/dir/9/links.php</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/empty-property-insurance.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/home-emergency.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/index.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/investment-property.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/landlord-guides.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/landlords-contents.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/legal-expenses-insurance-broker-uk.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/property-management.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/Rental-Property.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/site-map.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/site-terms.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+<url>
+	<loc>http://www.let-a-property.info/uk-interest-rates.htm</loc>
+	<lastmod>2011-02-28</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.5</priority>
+</url>
+</urlset>

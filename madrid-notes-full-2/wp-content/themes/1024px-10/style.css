@@ -1,0 +1,109 @@
+/*
+Theme Name: 1024px
+Theme URI: http://andreasviklund.com/wordpress-themes/
+Description: The 1024px theme for WordPress, based on Andreas' open source XHTML/CSS website template with the same name.
+Version: 1.0
+Author: Andreas Viklund
+Author URI: http://andreasviklund.com/
+*/
+
+/* Body */
+body {background:#fff url(images/background.gif) top center repeat-y; color:#404040; font:76% Verdana,Tahoma,Arial,sans-serif; line-height:1.3em; padding:20px 0;}
+*{margin:0; padding:0;}
+
+/* Main wrap */
+#wrap {color:#404040; margin:0 auto; width:970px;}
+#slogan {color:#808080; font-size:1.5em; font-weight:bold; letter-spacing:-1px; line-height:1.2em; margin:15px 0 30px 35px;}
+#toplinks {padding:5px 2px 2px 3px; text-align:right;}
+
+/* Headers */
+h1 {font-family: "Trebuchet MS", Arial, Sans-Serif; font-weight:normal; color:#333333; font-size:3.0em; margin:30px 0 20px 25px;}
+h1 a {color:#333333;}
+h1 a:hover {text-decoration:none;}
+h2 {border-bottom:4px solid #dadada; color:#0033CC; font-size:1.4em; letter-spacing:-1px; margin:0 0 10px; padding:0 2px 2px 5px;}
+h2.sidebar {border-bottom:4px solid #dadada; color:#CC0000; font-size:1.4em; letter-spacing:-1px; margin:0 0 10px; padding:0 2px 2px 5px;}
+h2 a {color:#0033CC;}
+h3 {border-bottom:1px solid #dadada; color:#666666; font-size:1.2em; font-weight:bold; margin:10px 0 8px; padding:1px 2px 2px 3px;}
+h4 {color:#666666; font-size:1.2em; font-weight:bold; margin:10px 0 8px; padding:1px 2px 2px 3px;}
+
+#logo { float: left; padding-bottom: 10px; }
+#banner { float: right; width: 480px; padding-bottom: 10px; }
+
+#menu { clear: both; margin: 1px 0 20px 0; background: #CC0000 url(menu.png) repeat-x top left; padding: 5px; font-size: 12px; }
+#menu li { list-style-type: none; display: inline; padding: 0;}
+#menu img { vertical-align: middle; }
+#menu li a:link { color: #FFF; padding: 5px 9px 7px 9px; }
+#menu li a:visited { color: #FFF; padding: 5px 9px 7px 9px; }
+#menu li a:hover { color: #CC0000; background-color: #fff; padding: 5px 9px 7px 9px; text-decoration: none; }
+#menu li a:active { color: #CC0000; background-color: #fff; padding: 5px 9px 7px 9px; text-decoration: none; }
+
+/* Sidebar */
+#sidebar {float:right; margin:0 0 5px; padding:1px 0 0; width:350px;}
+#sidebar p,#sidebar ul,#sidebar .textwidget {margin:0 0 15px 10px;}
+#sidebar li {list-style:none; margin:0 0 6px;}
+#sidebar li a {font-size:1.2em; font-weight:bold; padding:2px;}
+#sidebar ul ul {margin:5px 0 5px 10px;}
+#sidebar ul ul li {margin:0 0 5px;}
+#sidebar ul ul li a {font-weight:normal;}
+
+#sideads {padding: 0; margin-right: 10px; float: left; width: 160px; text-align: center;}
+#sidebar2 {padding: 0; float: left; width: 180px;}
+#topboxes {width: 330px; padding: 5px 10px 0px 10px; margin: 5px 0 15px 15px;}
+#topboxes img {padding: 10px;}
+
+/* Content */
+#content {float:left; line-height:1.5em; margin:-2px 0 10px; text-align:left; width:595px;}
+#content ul,#content ol {margin:0 0 18px 30px;}
+#content ul li,#content ol li {margin:0 0 3px;}
+#content ul ul,#content ol ol {margin:5px 0 5px 15px;}
+#content img {margin:5px;}
+#content p {margin:0 0 15px 10px;}
+#content p.timestamp {font-size:1.2em; margin:-5px 0 15px 10px;}
+#content p.timestamp a {font-weight:normal;}
+#content #postnav {padding:5px; margin:5px 0 18px;}
+#content #postnav p {margin:0; padding-left:5px;}
+#content #postnav p.right {text-align:right; padding-right:5px; margin-top:-18px;}
+
+/* Footer */
+#footer {border-top:4px solid #dadada; clear:both; color:#808080; font-size:0.9em; line-height:1.6em; margin:0 auto; padding:8px 0; text-align:right;}
+#footer p {margin:0; padding:0;}
+#footer a {color:#808080;}
+#footer a:hover {text-decoration:underline;}
+
+/* Comments */
+#content div.comment {margin-bottom:15px;}
+#content div.comment p {margin:0 0 4px 10px;}
+#commentsection p {margin:0 0 8px 10px;}
+#commentsection input,#commentsection textarea {padding:5px; width:330px;}
+#commentsection textarea#comment {width:500px;}
+#commentsection input#submit {width:75px;color:#333; background-color:#fff;}
+#commentsection input,#commentsection textarea,form div.searchbox input {font:94% Verdana,Tahoma,Arial,sans-serif; border:1px solid #ccc;}
+
+/* Tags */
+blockquote {border:1px solid #dadada; font-size:0.9em; margin:20px 10px; padding:8px;}
+blockquote p {padding:2px 0; margin:0; font-weight:bold;}
+table#wp-calendar {width:180px; margin:0 0 18px 10px;}
+p {margin:0 0 18px 10px;}
+ul,ol,dl {font-size:0.9em; margin:2px 0 16px 35px;}
+ul ul,ol ol {margin:4px 0 4px 35px;}
+
+/* Links */
+a {color:#0033CC; font-weight:bold; text-decoration:none;}
+a:hover {text-decoration:underline;}
+a img {border:0;}
+
+/* Float fix */
+.contenttext {overflow:hidden;}
+* html .contenttext {height:1px; overflow:visible;}
+* html .contenttext p {overflow:hidden; width:99%;}
+
+/* Searchbox */
+.searchbox {margin:8px 0 15px 10px;}
+.searchbox label {display:none;}
+.searchbox input {font-size:0.9em; padding:5px; width:120px; border:1px solid #ccc;}
+
+/* Various classes */
+.post {margin:0 0 15px;}
+.textright {text-align:right;}
+.textcenter {text-align:center;}
+.hide {display:none;}

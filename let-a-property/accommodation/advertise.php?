@@ -1,0 +1,649 @@
+<html>
+    <Head>
+    <meta http-equiv="Content-Language" content="en-gb">
+    <TITLE>free property advertising for landlords and letting agents</TITLE>
+    <META NAME="Title" CONTENT="free property advertising for landlords and letting agents<">
+    <META NAME="description" CONTENT="Accommodation adverts at http://www.Let-a-Property.info">
+    <META NAME="Abstract" CONTENT="Accommodation adverts at http://www.Let-a-Property.info">
+    <META NAME="keywords" CONTENT="accommodation, student, housing, rental property, housing, England, UK, London">
+    <META NAME="Submission" CONTENT="http://www.let-a-property.info">
+    <META NAME="Author" CONTENT="Accommodation adverts at http://www.Let-a-Property.info">
+    <META NAME="Subject" CONTENT="Accommodation adverts at http://www.Let-a-Property.info">
+    <META NAME="Submission" CONTENT="http://www.let-a-property.info">
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    <META NAME="REVISIT-AFTER" CONTENT="2 days">
+    <META NAME="document-classification" CONTENT="Business and Economy">
+    <META NAME="document-rating" CONTENT="General">
+    <META NAME="document-distribution" CONTENT="Global">
+
+	<script type="text/javascript" src="_include/factory.js"></script>
+	<script type="text/javascript" src="_include/asynchronous2.js"></script>
+	<script type="text/javascript" src="_include/searchbox.js"></script>
+    
+<script language="JavaScript">
+<!--
+
+function SymError()
+{
+  return true;
+}
+
+window.onerror = SymError;
+
+var SymRealWinOpen = window.open;
+
+function SymWinOpen(url, name, attributes)
+{
+  return (new Object());
+}
+
+window.open = SymWinOpen;
+
+//-->
+    </script>
+
+<SCRIPT LANGUAGE="JavaScript">
+    <!-- Begin
+    function addbookmark()
+    {
+    bookmarkurl="http://www.let-a-property.info/accommodation/index.htm"
+    bookmarktitle="Accommodation adverts - Let-a-Property.info"
+    if (document.all)
+    window.external.AddFavorite(bookmarkurl,bookmarktitle)
+    }
+
+    function submitForm()
+    {
+        if( frmAddLandlord.selConditions[ frmAddLandlord.selConditions.selectedIndex ].value == 0 )
+        {
+            alert( "Please agree to the terms and conditions." );
+            frmAddLandlord.selConditions.focus();
+        }
+        else
+        {
+            if( frmAddLandlord.selTitle[ frmAddLandlord.selTitle.selectedIndex ].value == "null" )
+            {
+                alert( "Please select a title" );
+                frmAddLandlord.selTitle.focus();
+            }
+            else
+            {
+                if( frmAddLandlord.txtGivenName.value == "" )
+                {
+                    alert( "Please enter a given name" );
+                    frmAddLandlord.txtGivenName.focus();
+                }
+                else
+                {
+                    if( frmAddLandlord.txtSurname.value == "" )
+                    {
+                        alert( "Please enter a surname" );
+                        frmAddLandlord.txtSurname.focus();
+                    }
+                    else
+                    {
+                        if( frmAddLandlord.selLandlordType[ frmAddLandlord.selLandlordType.selectedIndex ].value == "null" )
+                        {
+                            alert( "Please select a landlord type" );
+                            frmAddLandlord.selLandlordType.focus();
+                        }
+                        else
+                        {
+                            if( frmAddLandlord.txtAddress.value == "" )
+                            {
+                                alert( "Please enter an address" );
+                                frmAddLandlord.txtAddress.focus();
+                            }
+                            else
+                            {
+                                if( frmAddLandlord.txtTown.value == "" )
+                                {
+                                    alert( "Please enter a town" );
+                                    frmAddLandlord.txtTown.focus();
+                                }
+                                else
+                                {
+                                    if( frmAddLandlord.selCounties[ frmAddLandlord.selCounties.selectedIndex ].value == "null" )
+                                    {
+                                        alert( "Please select a county" );
+                                        frmAddLandlord.selCounties.focus();
+                                    }
+                                    else
+                                    {
+                                        if( frmAddLandlord.txtPostCode.value == "" )
+                                        {
+                                            alert( "Please enter a postcode" );
+                                            frmAddLandlord.txtPostCode.focus();
+                                        }
+                                        else
+                                        {
+                                            if( frmAddLandlord.txtEmailAddress.value == "" )
+                                            {
+                                                alert( "Please enter an email address." );
+                                                frmAddLandlord.txtEmailAddress.focus();
+                                            }
+                                            else
+                                            {
+                                                if( frmAddLandlord.txtUsername.value == "" )
+                                                {
+                                                    alert( "Please enter a username" );
+                                                    frmAddLandlord.txtUsername.focus();
+                                                }
+                                                else
+                                                {
+                                                    if( frmAddLandlord.txtPassword.value == "" )
+                                                    {
+                                                        alert( "Please enter a password" );
+                                                        frmAddLandlord.txtPassword.focus();
+                                                    }
+                                                    else
+                                                    {
+                                                        if( frmAddLandlord.txtPassword.value != frmAddLandlord.txtPassword2.value )
+                                                        {
+                                                            alert( "Your passwords do not match, please re-type your passwords." );
+                                                            frmAddLandlord.txtPassword.value = "";
+                                                            frmAddLandlord.txtPassword2.value = "";
+                                                            frmAddLandlord.txtPassword.focus();
+                                                        }
+                                                        else
+                                                        {
+                                                            frmAddLandlord.submit();
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    function popUp(URL)
+    {
+    day = new Date();
+    id = day.getTime();
+    eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=750,height=550,left = 5,top = 5');");
+    }
+    // End -->
+    </script>
+</head>
+
+<body vlink="#0000FF" alink="#0000FF" bgcolor="#DADADA" style="font-family: Arial; font-size: 10pt" topmargin="2" leftmargin="0">
+<center>
+<table width="1024" cellspacing="0" cellpadding="0" bordercolor="#000000" border="0" style="border-left-width: 0; border-bottom-width: 0; border-collapse:collapse">
+  <tr>
+<center>
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111">
+  <tr>
+    <td width="100%">
+    <table border="1" cellpadding="0" cellspacing="0" style="border:1px solid #003366; border-collapse: collapse" bordercolor="#003366" width="1024" height="14">
+      <tr>
+    <td style="border-left-style:solid; border-left-width:1; border-right-style:none; border-right-width:medium; border-top-style:solid; border-top-width:1; border-bottom-style:none; border-bottom-width:medium" bgcolor="#003366" height="28" bordercolor="#003366">
+    <a href="http://www.let-a-property.info/">
+    <img border="0" src="http://www.let-a-property.info/images/Let-a-Propertyinfo.gif" align="left" width="198" height="24"></a></td>
+    <td style="border-left-style:none; border-left-width:medium; border-right-style:solid; border-right-width:1; border-top-style:solid; border-top-width:1; border-bottom-style:none; border-bottom-width:medium" bgcolor="#003366" height="28" bordercolor="#003366">
+    <p align="right">
+    &nbsp; <a href="http://www.let-a-property.info">
+    <img border="0" src="http://www.let-a-property.info/images/Homepage2.gif" width="81" height="15"></a>
+    <a href="http://www.let-a-property.info/accommodation/login.php"><img border="0" src="http://www.let-a-property.info/images/Advertiser_Login.gif" width="81" height="15"></a>
+    <a href="http://www.let-a-property.info/accommodation/forgot.php">
+    <img border="0" src="http://www.let-a-property.info/images/Forgot_Password.gif" width="81" height="15"></a></td>
+      </tr>    
+      <tr>
+    <td style="border-left-style:solid; border-left-width:1; border-right-style:solid; border-right-width:1; border-top-style:none; border-top-width:medium; border-bottom-style:solid; border-bottom-width:1" bgcolor="#003366" height="34" colspan="2" bordercolor="#003366">
+    <table border="1" cellpadding="0" cellspacing="0" style="border:0px solid #003366; border-collapse: collapse" bordercolor="#111111" width="1022">
+      <tr>
+        <td style="border-style: none; border-width: medium">&nbsp;<a href="http://www.let-a-property.info/accommodation/index.htm"><img border="0" src="http://www.let-a-property.info/images/Search_for_Rental_Property.gif" align="absbottom" width="92" height="34"></a>&nbsp;
+    <a href="http://www.let-a-property.info/accommodation/_scripts/search_4_wanted.php?page=1">
+    <img border="0" src="http://www.let-a-property.info/images/View_Tenant_Notices.gif" align="absbottom" width="92" height="34"></a>&nbsp;
+    <a href="http://www.let-a-property.info/accommodation/advertise.php">
+    <img border="0" src="http://www.let-a-property.info/images/fpa.gif" width="92" height="34" align="absbottom"></a>&nbsp;
+    <a href="http://www.let-a-property.info/accommodation/add-wantednotice.php">
+    <img border="0" src="http://www.let-a-property.info/images/Post_a_Wanted_Notice.gif" align="absbottom" width="92" height="34"></a>&nbsp;
+    <a href="http://www.let-a-property.info/letting-agents/index.htm">
+    <img border="0" src="http://www.let-a-property.info/images/Letting_Agent_Directory2.gif" align="absbottom" width="92" height="34"></a>&nbsp; &nbsp;
+        </td>
+        <td style="border-style: none; border-width: medium">
+<form action="http://www.let-a-property.info/results.htm" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-5778532101016978:7cxebfbv9wj" />
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <p align="right">
+    <input type="text" name="q" size="41" style="font-family: Tahoma; font-size: 10pt; color: #000000" />
+    <input type="submit" name="sa" value="Rental Property Search" style="font-family: Tahoma; font-size: 8pt; color: #FFFFFF; background-color: #0066cc" />
+  </div>
+</form>
+
+<script type="text/javascript" src="/cse/brand?form=cse-search-box&amp;lang=en"></script></td>
+      </tr>
+    </table>
+
+</td>
+      </tr>    </table>    </td>  </tr></table></center>  </tr>
+  </table>
+<center>
+
+
+
+
+
+
+
+
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border-top-width: 0; border-bottom: 1px solid #000000; border-left-color:#000000; border-right-color:#000000" bordercolor="#111111" width="1024">
+  <tr>
+  
+  <center>
+    <td width="1024" align="justify" bgcolor="#FFFFFF" style="border-left:1px solid #000000; padding-left:4; padding-right:4; padding-top:1; padding-bottom:1; border-top-style:none; border-top-width:medium; border-right-style:solid; border-right-width:1; border-bottom-style:solid; border-bottom-width:1" bordercolorlight="#000000" bordercolordark="#000000" valign="top">
+    <p align="center" style="margin-top: 0; margin-bottom: 0"><font size="1">&nbsp;&nbsp;&nbsp;
+    </font></font></p>
+    <font size="2">
+          <p style="margin-top: 0; margin-bottom: 0">
+          <font face="Verdana" size="1" color="#666666">you are here:</font><font face="Verdana" size="1">
+          </font><b><a href="http://www.let-a-property.info">
+
+
+
+<span onmouseover="window.status=&quot; &quot;; return true" onmouseout="window.status=&quot;&quot;; return true">
+
+          <font color="#0066CC" face="Verdana" size="1">Homepage</font></span></a></b><font color="#808080" face="Verdana" size="1">
+          </font>
+          <font face="Verdana" size="1" color="#FF6600"><b>&gt;</b></font><font color="#808080" face="Verdana" size="1">
+          <b>
+          <font color="#0066CC">
+          <a href="http://www.let-a-property.info/accommodation/index.htm">
+          <font color="#0066CC">Property Search</font></a></font></b> </font>
+          <font face="Verdana" size="1" color="#FF6600"><b>&gt; </b></font>
+          <font face="Verdana" size="1" color="#808080">Free Property 
+          Advertising </font>
+          <b>
+          <font color="#FF6600" face="Verdana" size="1">&gt;</font></b></p>
+          </font>
+    <p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
+    <p align="center" style="margin-top: 0; margin-bottom: 0">
+    <b>
+
+
+
+<span onmouseover="window.status=&quot; &quot;; return true" onmouseout="window.status=&quot;&quot;; return true">
+
+    <font color="#0066CC" face="Tahoma">Landlords &amp; Letting Agents... 
+    Advertise for FREE....</font></span></b></p>
+  <o:p>
+    <o:p><o:p>
+
+    <o:p>
+    <blockquote>
+    <blockquote>
+    <p style="margin-top: 0; margin-bottom: 0">&nbsp;<p style="margin-top: 0; margin-bottom: 0">
+    <font face="Tahoma" size="2">To advertise for FREE, simply <b>Create an Advertiser Account</b> (in less than one minute) in order to:-</font><p style="margin-top: 0; margin-bottom: 0">&nbsp;<ol>
+    <li>
+    <p style="margin-top: -10; margin-bottom: 0">
+    <o:p>
+    <font face="Tahoma" size="2">
+      Immediately place an <b>unlimited number of advert(s)</b> on our site; </li>
+    </font>
+    <o:p>
+    <li>
+    <p style="margin-top: 0; margin-bottom: 0"><font face="Tahoma"><font size="2">Include <b>photos</b>
+    of your property(s), features and pricing as well as your contact details;</font></li>
+    <li>
+    <p style="margin-top: 0; margin-bottom: 0"><font size="2">View <b>live
+    reports</b> of number of visits to your advert(s) made by prospective tenants;</li></font></font><o:p><font size="2" face="Tahoma">
+    </font>
+    <li>
+    <p style="margin-top: 0px; margin-bottom: 0px" align="justify">
+    <font face="Tahoma" size="2"> <b>Edit, add, hide</b> or <b>
+    delete</b> the property(s) details at any time;</font></p>
+    </li>
+    </ol>
+    </blockquote>
+    <o:p>
+    <p style="margin-top: 0; margin-bottom: 0">
+    <font size="2" face="Tahoma">Please note, y</font><o:p><font face="Tahoma" size="2">our
+    email address will <u>NOT</u> be displayed next to your advert(s) - this
+    will <b>stop
+    unsolicited e-mail</b> to you.&nbsp; Instead, prospective tenants will reply to your advert by
+    sending  a secure message which our system instantly forwards to your <b>
+    preferred email address</b> (so it is important you enter your email details
+    correctly).&nbsp; Please create an advertiser account by completing the short form below:-</font><p style="margin-top: 0; margin-bottom: 0">&nbsp;<p style="margin-top: 0; margin-bottom: 0"><o:p>
+    <p style="margin-top: 0px; margin-bottom: 0px" align="center">
+    <font face="Tahoma">
+    <u><b>Application for Advertiser Account</b></u></p>
+	    <form id="frmAddLandlord" name="frmAddLandlord" action="_scripts/add_landlord.php" method="post">
+    <table style="border-collapse: collapse" cellSpacing="0" cellPadding="0" border="0" x:str width="616">
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;Title</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><font face="Tahoma" color="#000066" size="2">
+    &nbsp;<!--webbot bot="Validation" b-value-required="TRUE" b-disallow-first-item="TRUE" --><select style="background-color: #ffffcc" size="1" name="selTitle" name="selTitle">
+        <option value="null" selected>Select One</option>
+        <option value="Mr">Mr</option>
+    <option value="Mrs">Mrs</option>
+    <option value="Ms">Ms</option>
+    <option value="Miss">Miss</option>
+    <option value="Dr">Dr</option>
+    <option>Other</option>
+    </select></font><font face="Tahoma" size="2"> </font></td>
+    </font></b>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;First&nbsp;Name</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><font face="Tahoma" color="#000066" size="2">
+    &nbsp;<input style="background-color: #ffffcc" maxLength="30" name="txtGivenName" id="txtGivenName" size="20"> </font>
+    </td>
+    </font>
+    </b>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;Last&nbsp;Name</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><font color="#ff0000"><b>
+    <font face="Tahoma" color="#000066" size="2">
+    &nbsp;<input style="background-color: #ffffcc" maxLength="30" name="txtSurname" id="txtSurname" size="20"> </font></b></font></td>
+    </font>
+    </b>
+    </tr>
+    <tr>
+    <o:p>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font size="2" face="Tahoma">I am a </font></b></td>
+    <o:p>
+    <b>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left">
+    <o:p>
+    <b>
+    <font face="Tahoma" color="#000066" size="2">
+    &nbsp;<!--webbot bot="Validation" b-value-required="TRUE" b-disallow-first-item="TRUE" --><select style="background-color: #ffffcc" size="1" name="selLandlordType" id="selLandlordType">
+        <option value="null" selected>Select One</option>
+        <option value="Private Landlord">Private Landlord</option>
+    <option value="Letting Agent">Letting Agent</option>
+    </select></font></b></td>
+    </font>
+    </b>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">Company Name (if applicable)</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><font color="#ff0000"><b>
+    <font face="Tahoma" color="#000066" size="2">
+    &nbsp;<input style="background-color: #ffffcc" maxLength="30" size="30" name="txtCompanyName" id="txtCompanyName"> </font></b></font></td>
+    </font>
+    </b>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;Address</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><font color="#ff0000"><b>
+    <font face="Tahoma" color="#000066" size="2">
+    &nbsp;<input style="background-color: #ffffcc" maxLength="30" size="30" name="txtAddress" id="txtAddress"> </font></b></font></td>
+    </font>
+    </b>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;Town/City</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><font color="#ff0000"><b>
+    <font face="Tahoma" color="#000066" size="2">
+    &nbsp;<input style="background-color: #ffffcc" maxLength="30" size="30" name="txtTown" id="txtTown"> </font></b></font></td>
+    </font>
+    </b>
+    </tr>
+	<tr>
+		<td class="clsLabel" width="308" bgcolor="#ffffff">
+			<p align="right"><font face="Tahoma"><b><font size="2">Country</font></b>
+		</td>
+		<td width="308" bgColor="#ffffff">
+			<p align="left">
+				&nbsp;<select name="SelCountries" id="SelCountries" value="GO" style="font-size: 10pt; color: #000000; background-color: #FFFFCC;width:200" onclick="javascript:loadGeographic(this,'selCounties',0,'','trCounties');">
+						<option value="United Kingdom">United Kingdom</option>
+						<option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Antigua And Barbuda">Antigua And Barbuda</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bermuda">Bermuda</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Bosnia And Herzegovina">Bosnia And Herzegovina</option><option value="Botswana">Botswana</option><option value="Brazil">Brazil</option><option value="British Indian Ocean Territory">British Indian Ocean Territory</option><option value="British Virgin Islands">British Virgin Islands</option><option value="Brunei">Brunei</option><option value="Bulgaria">Bulgaria</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Cayman Islands">Cayman Islands</option><option value="Central African Republic">Central African Republic</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="China">China</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Congo">Congo</option><option value="Costa Rica">Costa Rica</option><option value="Croatia">Croatia</option><option value="Cuba">Cuba</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Denmark">Denmark</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="East Timor">East Timor</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="United Kingdom">United Kingdom</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Ethiopia">Ethiopia</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="France">France</option><option value="French Guiana">French Guiana</option><option value="French Polynesia">French Polynesia</option><option value="Gabon">Gabon</option><option value="Georgia">Georgia</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Greece">Greece</option><option value="Greenland">Greenland</option><option value="Grenada">Grenada</option><option value="Guatemala">Guatemala</option><option value="Guinea">Guinea</option><option value="Guinea Bissau">Guinea Bissau</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Honduras">Honduras</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Indonesia">Indonesia</option><option value="Iran">Iran</option><option value="Iraq">Iraq</option><option value="Ireland">Ireland</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Japan">Japan</option><option value="Jersey">Jersey</option><option value="Jordan">Jordan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kiribati">Kiribati</option><option value="Kuwait">Kuwait</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Laos">Laos</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Liechtenstein">Liechtenstein</option><option value="Lithuania">Lithuania</option><option value="Macedonia">Macedonia</option><option value="Madagascar">Madagascar</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marshall Islands">Marshall Islands</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mexico">Mexico</option><option value="Moldova">Moldova</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Montserrat">Montserrat</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar (Burma)">Myanmar (Burma)</option><option value="Namibia">Namibia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="New Caledonia">New Caledonia</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="North Korea">North Korea</option><option value="Northern Ireland">Northern Ireland</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Palestinian Territory">Palestinian Territory</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Puerto Rico">Puerto Rico</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Russia">Russia</option><option value="Rwanda">Rwanda</option><option value="Saint Helena">Saint Helena</option><option value="Saint Kitts And Nevis">Saint Kitts And Nevis</option><option value="Saint Lucia">Saint Lucia</option><option value="Saint Vincent And The Grenadines">Saint Vincent And The Grenadines</option><option value="Samoa">Samoa</option><option value="San Marino">San Marino</option><option value="Sao Tome And Principe">Sao Tome And Principe</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Scotland">Scotland</option><option value="Senegal">Senegal</option><option value="Serbia And Montenegro">Serbia And Montenegro</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="South Korea">South Korea</option><option value="Spain">Spain</option><option value="Sri Lanka">Sri Lanka</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Swaziland">Swaziland</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syria">Syria</option><option value="Taiwan">Taiwan</option><option value="Tanzania">Tanzania</option><option value="Thailand">Thailand</option><option value="The Bahamas">The Bahamas</option><option value="The Gambia">The Gambia</option><option value="Togo">Togo</option><option value="Tonga">Tonga</option><option value="Trinidad And Tobago">Trinidad And Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Turkmenistan">Turkmenistan</option><option value="Tuvalu">Tuvalu</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="United States of America">United States of America</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option><option value="Vanuatu">Vanuatu</option><option value="Vatican City">Vatican City</option><option value="Venezuela">Venezuela</option><option value="Vietnam">Vietnam</option><option value="Wales">Wales</option><option value="Yemen">Yemen</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option>				</select>
+			</p>
+		</td>
+	</tr>
+    <tr id="trCounties" style="display:none;" height="17">
+ 
+		<td class="clsLabel" width="308" bgColor="#ffffff" align="right">
+		<font face="Tahoma"><b><font size="2">&nbsp;County/State</font></b>
+		</td>
+		<td bgColor="#ffffff" align="left">
+				
+				&nbsp;<select name="selCounties" id="selCounties" style="font-size: 10pt; color: #000000; background-color: #FFFFCC">
+					<option value="null" selected>Please Select a County</option>
+				</select>
+		</td>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" vAlign="top" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;Postcode</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><font color="#ff0000"><b>
+    <font face="Tahoma" color="#000066" size="2">
+    &nbsp;<input style="background-color: #ffffcc" maxLength="30" size="15" name="txtPostCode" id="txtPostCode"> </font></b></font></td>
+    </font>
+    </b>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;Telephone</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><font face="Tahoma" color="#000066" size="2">
+    &nbsp;<input style="background-color: #ffffcc" maxLength="20" name="txtTelephone" id="txtTelephone" size="20"> </font></td>
+    </font>
+    </b>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;Email&nbsp;Address</font></b></td>
+    <font color="#ff0000">
+    <td align="left" width="308" bgColor="#ffffff">
+    <font face="Tahoma" size="2">
+    &nbsp;<input style="background-color: #ffffcc" maxLength="50" width="200" name="txtEmailAddress" id="txtEmailAddress" size="20"> </font></td>
+    </font>
+    </b>
+    <font color="#ff0000">
+    </tr>
+    </font>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;Choose&nbsp;User&nbsp;Name</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><b>
+    <font face="Tahoma" color="#ff0000" size="2">&nbsp;<input style="background-color: #ffffcc" maxLength="30" name="txtUsername" id="txtUsername" size="20"> </font>
+        </b></td>
+    </font>
+    </b>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;Choose&nbsp;Password</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><b>
+    <font face="Tahoma" color="#ff0000" size="2">&nbsp;<!--webbot bot="Validation" b-value-required="TRUE" i-minimum-length="3" i-maximum-length="30" --><input  type="password" style="background-color: #ffffcc" maxLength="30" name="txtPassword" id="txtPassword" size="20"> </font>
+    </b></td>
+    </font>
+    </b>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><b><font face="Tahoma" size="2">&nbsp;Confirm&nbsp;Password</font></b></td>
+    <font color="#ff0000">
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><b>
+    <font face="Tahoma" color="#ff0000" size="2">&nbsp;<!--webbot bot="Validation" b-value-required="TRUE" i-minimum-length="3" i-maximum-length="30" --><input type="password" style="background-color: #ffffcc" maxLength="30" name="txtPassword2" id="txtPassword2" size="20"> </font>
+    </b></td>
+    </font>
+    </b>
+    <font color="#ff0000">
+    </tr>
+
+    <!--Authorisation code added 23/08/2007-->
+    <!--START-->
+    
+    <tr style="height: 12.75pt" height="17">
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    &nbsp;</td>
+    <td width="308" bgColor="#ffffff">
+    <font size="2" face="Tahoma"><b>&nbsp; </b></font></td>
+    </tr>
+
+    
+    
+    <tr style="height: 12.75pt" height="17">
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right"><font face="Tahoma" size="2">'Spam Prevention' Code</font></td>
+    <b>
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><font face="Tahoma" color="#ff0000" size="2"><b>
+    &nbsp;<img src="authImage.php?id=advt" alt="Please refreash the page to generate a new authorisation code"/>
+    </b></font></td>
+    </b>
+    </tr>
+
+    
+    
+     <tr style="height: 12.75pt" height="17">
+    <b>
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right" style="margin-top: 0; margin-bottom: 0"><b>
+    <font face="Tahoma" size="2">
+    CAREFULLY enter the Code from above </font></b>
+    <font face="Tahoma">
+    </b>
+    </font>
+    <p align="right" style="margin-top: 0; margin-bottom: 0">
+    <font face="Tahoma" size="2">
+    (case sensitive)</font></td>
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><b>
+    <font face="Tahoma" color="#ff0000" size="2">
+    <!--webbot bot="Validation" b-value-required="TRUE" i-minimum-length="3" i-maximum-length="30" --><input type="hidden" name="szKey" value="advt"/>&nbsp;<!--webbot bot="Validation" b-value-required="TRUE" i-minimum-length="3" i-maximum-length="30" --><input type="text" style="background-color: #ffffcc" maxLength="30" name="szCode" id="szCode" size="20"> </font>
+    </b></td>
+    </tr>
+    
+    
+    
+    <!--END-->
+    <!--Authorisation code added 23/08/2007-->
+    
+    
+    <tr style="height: 12.75pt" height="17">
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    &nbsp;</td>
+    <font color="#000066">
+    <td width="308" bgColor="#ffffff">
+    <font size="2" face="Tahoma"><b>&nbsp; </b></font></td>
+    </tr>
+    </font>
+    
+    
+    <tr style="height: 12.75pt" height="17">
+    <td class="clsLabel" width="308" bgColor="#ffffff">
+    <p align="right">
+    <o:p>
+      <font color="#333333" face="Tahoma" size="2">
+      <a onMouseOver="status='Terms of Use'; return true" onMouseOut="status='';return true" target="_blank" href="../site-terms.htm">Terms of Use</a></font></td>
+    <td width="308" bgColor="#ffffff">
+    <p align="left"><font color="#ff0000"><b>
+    <font face="Tahoma" color="#000066" size="2">
+    &nbsp;<!--webbot bot="Validation" b-value-required="TRUE" b-disallow-first-item="TRUE" --><select style="background-color: #ffffcc" size="1" name="selConditions" id="selConditions">
+    <option selected value="0">I do NOT accept Terms &amp; Conditions</option>
+    <option value="1">I accept Terms &amp; Conditions</option>
+    </select></font></b></font></td>
+    </tr>
+    <tr style="height: 12.75pt" height="17">
+    <td style="font-weight: 400; font-size: 10pt; vertical-align: bottom; color: windowtext; font-style: normal; font-family: Arial; white-space: nowrap; text-decoration: none; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px" width="308">
+    &nbsp;</td>
+    <td style="font-weight: 400; font-size: 10pt; vertical-align: bottom; color: windowtext; font-style: normal; font-family: Arial; white-space: nowrap; text-decoration: none; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px" width="308">
+    &nbsp;<p>
+    <font color="#ff0000"><b><font face="Tahoma" size="2">
+    <input type="button" value="Apply" name="cmdSubmit" id="cmdSubmit" language="javascript" onclick="submitForm();"></font></b></font></p>
+    <p>
+    &nbsp;</p>
+    <p>
+    &nbsp;</p>
+    <p>
+    &nbsp;</p>
+    <p>
+    &nbsp;</p>
+    <p>
+    &nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</td>
+    </tr>
+    </table>
+    </form>
+    </blockquote>
+    </td>
+  </tr>
+  </table>
+    </body>
+</html>
+<script language="JavaScript">
+//load the default town infromation into the option boxes
+loadGeographic(document.getElementById('SelCountries'),'selCounties',0,'','trCounties');
+
+<!--
+var SymRealOnLoad;
+var SymRealOnUnload;
+
+function SymOnUnload()
+{
+  window.open = SymWinOpen;
+  if(SymRealOnUnload != null)
+     SymRealOnUnload();
+}
+
+function SymOnLoad()
+{
+  if(SymRealOnLoad != null)
+     SymRealOnLoad();
+  window.open = SymRealWinOpen;
+  SymRealOnUnload = window.onunload;
+  window.onunload = SymOnUnload;
+}
+
+SymRealOnLoad = window.onload;
+window.onload = SymOnLoad;
+
+//-->
+</script>

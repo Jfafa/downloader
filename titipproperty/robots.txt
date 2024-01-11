@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: https://titipproperty.com/oc-admin
+Disallow: https://titipproperty.com/user/login
+Disallow: https://titipproperty.com/user/register
+Disallow: https://titipproperty.com/user/recover 

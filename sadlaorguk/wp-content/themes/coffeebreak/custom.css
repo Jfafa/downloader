@@ -1,0 +1,41 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles here instead of style.css so it 
+is easier to update the theme. Simply copy an existing 
+style from style.css to this file, and modify it to 
+your liking.
+
+*/
+
+/* for the table on the discounts page */
+.discounts th {background-color:#ccc;vertical-align:top;}
+.discounts td {border-bottom:1px solid #666; padding:3px;}
+
+.slides p {padding:0px;}
+.slides p img.aligncenter {margin:0 auto;}
+#loopedSlider {padding-top: 5px; padding-bottom: 5px;}
+#loopedSlider ul.nav-buttons {display:none;}
+
+#header {height: 105px;}
+#header img.logo {margin-top:-10px;}
+
+.homepagepostdate {font-size:0.8em; color: #999; padding-left:30px;}
+
+.notice {border:1px solid #f44; padding:6px;}
+
+div.wrap {border-bottom:1px dashed #ccc; margin-bottom:5px;}
+
+#gallery-1 img {
+    border: none !IMPORTANT;
+}
+.gallery-caption {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 20px;
+    text-align: justify;
+
+

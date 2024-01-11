@@ -1,0 +1,443 @@
+<html>
+
+<head>
+<title>SADLA - Sheffield and District Landlord Association</title>
+<link rel="stylesheet" href="/sadla.css">
+<script language="JavaScript">
+
+<!--
+
+function MM_preloadImages() { //v3.0
+
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+}
+
+
+
+function MM_findObj(n, d) { //v3.0
+
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+
+}
+
+
+
+function MM_nbGroup(event, grpName) { //v3.0
+
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+
+  if (event == "init" && args.length > 2) {
+
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+
+      nbArr[nbArr.length] = img;
+
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+
+        if (!img.MM_up) img.MM_up = img.src;
+
+        img.src = img.MM_dn = args[i+1];
+
+        nbArr[nbArr.length] = img;
+
+    } }
+
+  } else if (event == "over") {
+
+    document.MM_nbOver = nbArr = new Array();
+
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+
+      if (!img.MM_up) img.MM_up = img.src;
+
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+
+      nbArr[nbArr.length] = img;
+
+    }
+
+  } else if (event == "out" ) {
+
+    for (i=0; i < document.MM_nbOver.length; i++) {
+
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+
+  } else if (event == "down") {
+
+    if ((nbArr = document[grpName]) != null)
+
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+
+    document[grpName] = nbArr = new Array();
+
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+
+      if (!img.MM_up) img.MM_up = img.src;
+
+      img.src = img.MM_dn = args[i+1];
+
+      nbArr[nbArr.length] = img;
+
+  } }
+
+}
+
+//-->
+
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"
+onLoad="MM_preloadImages('/SADLA/Images/Nav/advertising.gif','/SADLA/Images/Nav/advertising.gif','/Images/Nav/discounts.gif','/Images/Nav/home_f3.gif','/Images/Nav/home_f2.gif','/Images/Nav/benefits_f3.gif','/Images/Nav/benefits_f2.gif','/Images/Nav/events_f3.gif','/Images/Nav/events_f2.gif','/Images/Nav/articles_f3.gif','/Images/Nav/articles_f2.gif','/Images/Nav/constitution_f3.gif','/Images/Nav/constitution_f2.gif','/Images/Nav/notice_f3.gif','/Images/Nav/notice_f2.gif','/Images/Nav/discounts_f3.gif','/Images/Nav/discounts_f2.gif','/Images/Nav/join_f3.gif','/Images/Nav/join_f2.gif','/Images/Nav/contact_f3.gif','/Images/Nav/contact_f2.gif')">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+  <tr>
+    <td valign="top" bgcolor="#009CEE" width="135"><table width="135" border="0"
+    cellspacing="0" cellpadding="0">
+      <tr bgcolor="#009CEE" valign="middle" align="center">
+        <td height="150" width="135"><a href="/index.htm"><img src="/Images/sadlaLogo.gif" width="82" height="135"
+            alt="Sheffield District and Landlord Association" border="0"></td>
+      </tr>
+      <tr bgcolor="#009CEE" valign="top">
+        <td height="240"><table border="0" cellpadding="0" cellspacing="0" width="135">
+<!-- fwtable fwsrc="navigation.png" fwbase="nav.gif" -->
+          <tr>
+<!-- Shim row, height 1. -->
+            <td><img src="/Images/Nav/shim.gif" width="135" height="1" border="0" name="undefined_2"></td>
+            <td><img src="/Images/Nav/shim.gif" width="1" height="1" border="0" name="undefined_2"></td>
+          </tr>
+          <tr valign="top">
+<!-- row 1 -->
+            <td><a href="/index.htm" onMouseOut="MM_nbGroup('out');"
+            onMouseOver="MM_nbGroup('over','home','/Images/Nav/home_f2.gif','/Images/Nav/home_f3.gif',1)"
+            onClick="MM_nbGroup('down','navbar1','home','/Images/Nav/home_f3.gif',1)"><img name="home"
+            src="/Images/Nav/home.gif" width="135" height="30" border="0" alt="Home" onLoad></a></td>
+            <td><img src="/Images/Nav/shim.gif" width="1" height="30" border="0" name="undefined_2"></td>
+          </tr>
+          <tr valign="top">
+<!-- row 2 -->
+            <td><a href="/benefits.htm" onMouseOut="MM_nbGroup('out');"
+            onMouseOver="MM_nbGroup('over','benefits','/Images/Nav/benefits_f2.gif','/Images/Nav/benefits_f3.gif',1)"
+            onClick="MM_nbGroup('down','navbar1','benefits','/Images/Nav/benefits_f3.gif',1)"><img
+            name="benefits" src="/Images/Nav/benefits.gif" width="135" height="30" border="0"
+            alt="Membership Benefits" onLoad></a></td>
+            <td><img src="/Images/Nav/shim.gif" width="1" height="30" border="0" name="undefined_2"></td>
+          </tr>
+          <tr valign="top">
+<!-- row 3 -->
+            <td><a href="/events.htm" onMouseOut="MM_nbGroup('out');"
+            onMouseOver="MM_nbGroup('over','events','/Images/Nav/events_f2.gif','/Images/Nav/events_f3.gif',1)"
+            onClick="MM_nbGroup('down','navbar1','events','/Images/Nav/events_f3.gif',1)"><img
+            name="events" src="/Images/Nav/events.gif" width="135" height="30" border="0"
+            alt="Forthcoming Events" onLoad></a></td>
+            <td><img src="/Images/Nav/shim.gif" width="1" height="30" border="0" name="undefined_2"></td>
+          </tr>
+          <tr valign="top">
+<!-- row 4 -->
+            <td><a href="/articles.htm" onMouseOut="MM_nbGroup('out');"
+            onMouseOver="MM_nbGroup('over','articles','/Images/Nav/articles_f2.gif','/Images/Nav/articles_f3.gif',1)"
+            onClick="MM_nbGroup('down','navbar1','articles','/Images/Nav/articles_f3.gif',1)"><img
+            name="articles" src="/Images/Nav/articles.gif" width="135" height="30" border="0"
+            alt="Articles" onLoad></a></td>
+            <td><img src="/Images/Nav/shim.gif" width="1" height="30" border="0" name="undefined_2"></td>
+          </tr>
+          <tr valign="top">
+<!-- row 5 -->
+            <td><a href="/constitution.htm" onMouseOut="MM_nbGroup('out');"
+            onMouseOver="MM_nbGroup('over','constitution','/Images/Nav/constitution_f2.gif','/Images/Nav/constitution_f3.gif',1)"
+            onClick="MM_nbGroup('down','navbar1','constitution','/Images/Nav/constitution_f3.gif',1)"><img
+            name="constitution" src="/Images/Nav/constitution.gif" width="135" height="30" border="0"
+            alt="Constitution" onLoad></a></td>
+            <td><img src="/Images/Nav/shim.gif" width="1" height="30" border="0" name="undefined_2"></td>
+          </tr>
+          <tr valign="top">
+<!-- row 6 -->
+            <td><a href="/notice.htm" onMouseOut="MM_nbGroup('out');"
+            onMouseOver="MM_nbGroup('over','notice','/Images/Nav/notice_f2.gif','/Images/Nav/notice_f3.gif',1)"
+            onClick="MM_nbGroup('down','navbar1','notice','/Images/Nav/notice_f3.gif',1)"><img
+            name="notice" src="/Images/Nav/notice.gif" width="135" height="30" border="0"
+            alt="Notice Board" onLoad></a></td>
+            <td><img src="/Images/Nav/shim.gif" width="1" height="30" border="0" name="undefined_2"></td>
+          </tr>
+          <tr valign="top">
+<!-- row 7 -->
+            <td><a href="/discounts.htm" onMouseOut="MM_nbGroup('out');"
+            onMouseOver="MM_nbGroup('over','discounts','/Images/Nav/discounts_f2.gif','/Images/Nav/discounts_f3.gif',1)"
+            onClick="MM_nbGroup('down','navbar1','discounts','/Images/Nav/discounts_f3.gif',1)"><img
+            name="discounts" src="/Images/Nav/discounts_f3.gif" border="0" alt="Discounts"
+            onLoad="MM_nbGroup('init','navbar1','discounts','/Images/Nav/discounts.gif',1)"></a></td>
+            <td><img src="/Images/Nav/shim.gif" width="1" height="30" border="0" name="undefined_2"></td>
+          </tr>
+          <tr valign="top">
+<!-- row 8 -->
+            <td><a href="/join.htm" onMouseOut="MM_nbGroup('out');"
+            onMouseOver="MM_nbGroup('over','join','/Images/Nav/join_f2.gif','/Images/Nav/join_f3.gif',1)"
+            onClick="MM_nbGroup('down','navbar1','join','/Images/Nav/join_f3.gif',1)"><img name="join"
+            src="/Images/Nav/join.gif" width="135" height="30" border="0" alt="Join" onLoad></a></td>
+            <td><img src="/Images/Nav/shim.gif" width="1" height="30" border="0" name="undefined_2"></td>
+          </tr>
+          <tr valign="top">
+<!-- row 9 -->
+            <td><a href="/contact.htm" onMouseOut="MM_nbGroup('out');"
+            onMouseOver="MM_nbGroup('over','contact','/Images/Nav/contact_f2.gif','/Images/Nav/contact_f3.gif',1)"
+            onClick="MM_nbGroup('down','navbar1','contact','/Images/Nav/contact_f3.gif',1)"><img
+            name="contact" src="/Images/Nav/contact.gif" width="135" height="30" border="0"
+            alt="Contact us" onLoad></a></td>
+            <td><img src="/Images/Nav/shim.gif" width="1" height="30" border="0" name="undefined_2"></td>
+          </tr>
+<!--   This table was automatically created with Macromedia Fireworks 3.0   -->
+<!--   http://www.macromedia.com   -->
+        </table>
+        </td>
+      </tr>
+    </table>
+    <p>&nbsp;</td>
+    <td valign="top" bgcolor="#FFFFFF" colspan="2"><table width="100%" border="0"
+    cellspacing="0" cellpadding="0">
+      <tr bgcolor="#009CEE">
+        <td height="30"><div align="center"><p><span class="copyright"><a name="top"></a></p>
+              <img src="/Images/slogan2.gif" width="486" height="25"
+          alt="Sheffield District and Landlord Association"> </div></td>
+      </tr>
+    </table>      <img src="/Images/corner.gif" width="25" height="20"><br>
+    <table width="95%" border="0" cellspacing="0" cellpadding="10">
+      <tr>
+        <td width="1%"></td>
+        <td valign="top"><span class="title">Discounts</span><br>
+        <br>
+        Discounts are available in the following areas. Please click the links for the relevant
+        information:<p align="left"><a href="#finance">Finance</a> | <a href="#insurance">Insurance</a>
+        | <a href="#trade">Trade</a> | <a href="#web">Web Design</a><br>
+        <br>
+        <span class="subtitle"><a name="finance"></a>Finance</span><br>
+        </p>
+        <table border="0" cellpadding="3" width="600">
+          <tr>
+            <td class="eventTitle" bgcolor="#CCCCCC" width="150">Organisation Name</td>
+            <td class="eventTitle" bgcolor="#CCCCCC" width="300">Description</td>
+            <td class="eventTitle" bgcolor="#CCCCCC" width="150">Cost/Discount</td>
+          </tr>
+          <tr>
+            <td width="150">Independent Corporate Finance Ltd<br>
+            01482 226616<br>
+            (Jon Welsby / Richard Firth)</td>
+            <td width="300" valign="top">Exclusive finance product for SADLA members with cash back
+            incentives for remortgages</td>
+            <td width="150" valign="top">Please contact us for further details</td>
+          </tr>
+          <tr>
+            <td colspan="3"><div align="center"></div><hr size="1">
+            </td>
+          </tr>
+          <tr valign="top">
+            <td width="150">Royal Bank of Scotland<br>
+            0114 245 2991<br>
+            (Mike Hackett / Karl Kent)</td>
+            <td width="300" valign="top">25% discount of valuation fees<br>
+            gearing-up facility against existing security<br>
+            interest rates ranging from base + 1.5%</td>
+            <td width="150" valign="top">Please contact us for further details</td>
+          </tr>
+          <tr>
+            <td colspan="3"><div align="center"></div><hr size="1">
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td><a href="#top"><p align="right">Top</a> </td>
+          </tr>
+        </table>
+        <p align="left"><span class="subtitle"><a name="insurance"></a>Insurance</span><br>
+        </p>
+        <table border="0" cellpadding="3" width="600">
+          <tr>
+            <td class="eventTitle" bgcolor="#CCCCCC" width="150">Organisation Name</td>
+            <td class="eventTitle" bgcolor="#CCCCCC" width="300">Description</td>
+            <td class="eventTitle" bgcolor="#CCCCCC" width="150">Cost/Discount</td>
+          </tr>
+          <tr valign="top">
+            <td width="150">Hamilton Fraser Insurance Solutions<br>
+            020 8440 8338 <br>
+            (Steve Barnes)</td>
+            <td width="300" valign="top">Buildings insurance for residential properties let to
+            professionals, students, tenants on benefits and asylum seekers (different rate applies
+            for asylum seekers)</td>
+            <td width="150" valign="top">from £1.20 per £1000 sum insured</td>
+          </tr>
+          <tr>
+            <td colspan="3"><div align="center"></div><hr size="1">
+            </td>
+          </tr>
+          <tr>
+            <td width="150">Alan Boswell Insurance<br>
+            01603 218000</td>
+            <td width="300" valign="top">Buildings insurance for residential and low-risk commercial
+            properties - all types of tenants</td>
+                <td width="150" valign="top">from £1.47 per £1000 sum insured</td>
+          </tr>
+          <tr>
+            <td colspan="3"><div align="center"></div><hr size="1">
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td valign="top"></td>
+            <td><a href="#top"><p align="right">Top</a> </td>
+          </tr>
+        </table>
+        <p align="left"><span class="subtitle"><a name="trade"></a>Trade <br>
+        </span></p>
+            <table border="0" cellpadding="3" width="600">
+              <tr> 
+                <td class="eventTitle" bgcolor="#CCCCCC" width="150">Organisation 
+                  Name</td>
+                <td class="eventTitle" bgcolor="#CCCCCC" width="300">Description</td>
+                <td class="eventTitle" bgcolor="#CCCCCC" width="150">Cost/Discount</td>
+              </tr>
+              <tr valign="top"> 
+                <td width="150"><font color="#0080FF">DART</font><br>
+                  52-56 Barber Rd, S10<br>
+                  0114 2661699</td>
+                <td width="300">New and reconditioned electrical appliances.&nbsp; 
+                  Repairs to cookers, fridges, washers etc</td>
+                <td width="150" valign="top">Negotiable</td>
+              </tr>
+              <tr> 
+                <td colspan="3"><div align="center"></div>
+                  <hr size="1"> </td>
+              </tr>
+              <tr> 
+                <td width="150" valign="top"><font color="#0080FF">Spannerz Home 
+                  Maintenance</font><br>
+                  166 Horninglow Rd, S5<br>
+                  0114 2014194<br>
+                  0794 121 1202</td>
+                <td width="300" valign="top">Double glazing, Electrical, Plumbing, 
+                  Decorating, General Maintenance / Installations - many other 
+                  jobs undertaken; call for advice<br> </td>
+                <td width="150" valign="top">Negotiable</td>
+              </tr>
+              <tr> 
+                <td colspan="3"><div align="center"></div>
+                  <hr size="1"> </td>
+              </tr>
+              <tr> 
+                <td width="150" valign="top"><font color="#0080FF">Ex-Gas</font><br>
+                  91 Ranby Road, S11 7AN<br>
+                  0114 2398365</td>
+                <td width="300" valign="top">Landlord Gas Safety Checks and Certificates 
+                  - fixed discounted ratees for SADLA members till Jan 2005</td>
+                <td width="150" valign="top">£38 per safety check</td>
+              </tr>
+              <tr> 
+                <td colspan="3"><div align="center"></div>
+                  <hr size="1"> </td>
+              </tr>
+              <tr> 
+                <td><font color="0080FF">GESS<br>
+                  Harvey Brown</font> <br>
+                  55 Cairns Road S10 5NA<br>
+                  07779 663612</td>
+                <td valign="top">Landlord Gas Safety Checks, Servicing and Certificates, 
+                  Electrical Appliance testing (PAT) and Periodic inspection.<br>
+                  Corgi reg: 201941.</td>
+                <td valign="top">&pound;35 per gas safety check</td>
+              </tr>
+			  <tr> 
+                <td colspan="3"><div align="center"></div>
+                  <hr size="1"> </td>
+              </tr>
+			  <tr> 
+                <td valign="top"> <font color="0080FF">CDA Gas Services</font><br>
+                </td>
+                <td valign="top">Landlord Gas Safety Checks and Certificates. 
+                  Phone Doug on 01142368397 or Mobile 07811082808. Corgi reg:203558. 
+                  SADLA Member No N44</td>
+                <td valign="top">&pound;38 per check</td>
+              </tr>
+			  <tr> 
+                <td colspan="3"><div align="center"></div>
+                  <hr size="1"> </td>
+              </tr>
+              <tr> 
+                <td></td>
+                <td></td>
+                <td><a href="#top"> 
+                  <p align="right">Top</a> </td>
+              </tr>
+            </table>
+        <p><br>
+        <span class="subtitle"><a name="web"></a>Web Design</span> <br>
+        <br>
+        </p>
+        <table border="0" cellpadding="3" width="600">
+          <tr>
+            <td class="eventTitle" bgcolor="#CCCCCC" width="150">Organisation Name</td>
+            <td class="eventTitle" bgcolor="#CCCCCC" width="300">Description</td>
+            <td class="eventTitle" bgcolor="#CCCCCC" width="150">Cost/Discount</td>
+          </tr>
+          <tr valign="top">
+            <td width="150"><a href="http://www.jackanoryDesign.co.uk" target="_blank">jackanoryDesign</a></td>
+            <td width="300">Web design deals exclusive to SADLA members </td>
+            <td width="150">Basic site from £395</td>
+          </tr>
+          <tr>
+            <td colspan="3"><span class="copyright">
+                  <p align="center">Email:<a
+            href="mailto:enquiries@jackanoryDesign.co.uk?SUBJECT=SADLA%20Web%20site%20enquiry">enquiries@jackanoryDesign.co.uk</a> 
+                    | <span class="copyright">Tel:</span> 07786 334494 </p>
+            <hr size="1">
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td><a href="#top"><p align="right">Top</a> </td>
+          </tr>
+        </table>
+		
+            <br>
+            <table width="600" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="600" align="center" bgcolor="#CCCCCC" class="eventTitle">Disclaimer</td>
+              </tr>
+              <tr>
+                <td width="600">Please note these traders/companies and their 
+                  services are provided purely as an information source and Sadla 
+                  does not endorse, approve or certify their services.</td>
+              </tr>
+            </table>
+            
+          </td>
+      </tr>
+    </table>
+    <div align="center"></div></td>
+  </tr>
+  <tr>
+    <td height="30" valign="middle" bgcolor="#009CEE" width="135"></td>
+    <td valign="middle" bgcolor="#FFFFFF" height="30"><div align="right" class="copyright"><p>Copyright
+    © 2002 Sheffield and District Landlord Association | Site by <a
+    href="http://www.jackanoryDesign.co.uk" target="_blank" class="subtitle">jackanoryDesign</a>
+    </p>
+    </div></td>
+    <td valign="middle" bgcolor="#FFFFFF" width="10" height="30"></td>
+  </tr>
+</table>
+</body>
+</html>

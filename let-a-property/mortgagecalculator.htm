@@ -1,0 +1,1427 @@
+<html>
+<head><title>Mortgage Calculator</title><meta name="generator" content="ExcelEverywhere for HTML version 2.2.6" />
+<!-- Header start -->
+<!-- Parts of this page Copyright (C) 2002 Framtidsforum I&M AB, Sweden -->
+<style>/* Styles needed by ExcelEverywhere */
+*.ee150 { font-size : 8.00pt; color : #0000ff; 
+font-family : "Arial", Sans-serif }
+*.ee149 { font-size : 8.00pt; font-weight : bold; 
+font-family : "Arial", Sans-serif; text-align : right }
+*.ee148 { background-color : #ffffcc; font-size : 9.00pt; 
+font-family : "Arial", Sans-serif; text-align : center; 
+border-bottom : 2px solid #000000 }
+*.ee147 { background-color : #ffffcc; font-size : 8.00pt; 
+font-family : "Arial", Sans-serif; border-bottom : 2px solid #000000 }
+*.ee146 { background-color : #ffffcc; font-size : 8.00pt; 
+font-family : "Arial", Sans-serif }
+*.ee145 { background-color : #ffffcc; font-size : 10.00pt; color : #0000ff; 
+font-weight : bold; font-family : "Arial", Sans-serif }
+*.ee144 { background-color : #ffffcc; font-size : 10.00pt; 
+font-weight : bold; font-family : "Arial", Sans-serif }
+*.ee143 { background-color : #ffffcc; font-size : 9.00pt; color : #3366ff; 
+font-family : "Arial", Sans-serif; text-align : right }
+*.ee142 { background-color : #ffffcc; font-size : 9.00pt; 
+font-weight : bold; font-family : "Arial", Sans-serif }
+*.ee141 { background-color : #ffffcc; font-size : 9.00pt; color : #0000ff; 
+font-weight : bold; font-family : "Arial", Sans-serif }
+*.ee140 { background-color : #ffffcc; font-size : 9.00pt; color : #0000ff; 
+font-weight : bold; font-family : "Arial", Sans-serif; 
+border-right : 2px solid #000000 }
+*.ee139 { background-color : #ffffcc; font-size : 10.00pt; color : #0000ff; 
+font-weight : bold; font-family : "Arial", Sans-serif; text-align : center }
+*.ee138 { background-color : #ffffcc; font-size : 10.00pt; color : #0000ff; 
+font-weight : bold; font-family : "Arial", Sans-serif; text-align : right }
+*.ee137 { background-color : #ffffcc; font-size : 10.00pt; 
+font-weight : bold; font-family : "Arial", Sans-serif; text-align : center }
+*.ee136 { background-color : #ffffcc; font-size : 10.00pt; color : #ff0000; 
+font-weight : bold; font-family : "Arial", Sans-serif; text-align : center }
+*.ee135 { background-color : #ffffcc; font-size : 10.00pt; color : #ff0000; 
+font-weight : bold; font-family : "Arial", Sans-serif; text-align : right }
+*.ee134 { background-color : #ffffcc; font-size : 9.00pt; 
+font-family : "Arial", Sans-serif; border-bottom : 2px solid #000000; 
+border-right : 2px solid #000000 }
+*.ee133 { background-color : #ffffcc; font-size : 9.00pt; 
+font-family : "Arial", Sans-serif; text-align : right; 
+border-bottom : 2px solid #000000 }
+*.ee132 { background-color : #ffffcc; font-size : 9.00pt; 
+font-family : "Arial", Sans-serif; border-bottom : 2px solid #000000 }
+*.ee131 { background-color : #ffffcc; font-size : 9.00pt; color : #0000ff; 
+font-family : "Arial", Sans-serif; text-align : center }
+*.ee130 { background-color : #ffffcc; font-size : 9.00pt; color : #ff0000; 
+font-family : "Arial", Sans-serif; text-align : center }
+*.ee129 { background-color : #ffffcc; font-size : 9.00pt; color : #000080; 
+font-weight : bold; font-family : "Arial", Sans-serif }
+*.ee128 { background-color : #ffffcc; font-size : 9.00pt; color : #000080; 
+font-weight : bold; font-family : "Arial", Sans-serif; text-align : right }
+*.ee127 { background-color : #ffffcc; font-size : 9.00pt; color : #0000ff; 
+font-weight : bold; font-family : "Arial", Sans-serif; text-align : center; 
+border-right : 2px solid #000000 }
+*.ee126 { background-color : #ffffcc; font-size : 9.00pt; color : #0000ff; 
+font-weight : bold; font-family : "Arial", Sans-serif; text-align : center }
+*.ee125 { background-color : #ffffcc; font-size : 9.00pt; color : #ff0000; 
+font-weight : bold; font-family : "Arial", Sans-serif; text-align : center }
+*.ee124 { background-color : #ffffcc; font-size : 9.00pt; color : #993300; 
+font-family : "Arial", Sans-serif }
+*.ee123 { background-color : #ffffcc; font-size : 9.00pt; 
+font-family : "Arial", Sans-serif; text-align : center }
+*.ee122 { background-color : #ffffcc; font-size : 9.00pt; color : #808080; 
+font-weight : bold; font-family : "Arial", Sans-serif }
+*.ee121 { border-right : 2px solid #000000 }
+*.ee120 { background-color : #ffffcc; font-size : 9.00pt; 
+font-weight : bold; font-family : "Arial", Sans-serif; text-align : right }
+*.ee119 { font-size : 10.00pt; color : #ffffff; 
+font-family : "Arial", Sans-serif; text-align : center }
+*.ee118 { font-size : 11.00pt; color : #ffffff; 
+font-family : "Arial", Sans-serif; text-align : center }
+*.ee117 { background-color : #ffffcc; font-size : 9.00pt; 
+font-family : "Arial", Sans-serif; border-right : 2px solid #000000 }
+*.ee116 { background-color : #ffffcc; font-size : 9.00pt; 
+font-family : "Arial", Sans-serif }
+*.ee115 { background-color : #ffffcc; font-size : 9.00pt; 
+font-family : "Arial", Sans-serif; text-align : right }
+*.ee114 { background-color : #ffffcc; font-size : 9.00pt; color : #ff6600; 
+font-family : "Arial", Sans-serif; text-align : right }
+*.ee113 { background-color : #ffffcc; font-size : 9.00pt; color : #3366ff; 
+font-weight : bold; font-family : "Arial", Sans-serif }
+*.ee112 { font-size : 9.00pt; font-family : "Arial", Sans-serif; 
+border-right : 2px solid #000000 }
+*.ee111 {  }
+*.ee110 { border-bottom : 2px solid #000000 }
+*.ee109 { font-size : 9.00pt; color : #ffffff; font-weight : bold; 
+font-family : "Arial", Sans-serif; text-align : center }
+*.ee108 { font-size : 9.00pt; color : #ffffff; 
+font-family : "Arial", Sans-serif }
+*.ee107 { font-size : 9.00pt; color : #ffffff; 
+font-family : "Arial", Sans-serif; text-align : center }
+*.ee106 { font-size : 9.00pt; color : #ff0000; 
+font-family : "Arial", Sans-serif; text-align : center }
+*.ee105 { font-size : 9.00pt; font-family : "Arial", Sans-serif; 
+text-align : center }
+*.ee104 { font-size : 9.00pt; color : #3366ff; 
+font-family : "Arial", Sans-serif }
+*.ee103 { font-size : 9.00pt; color : #3366ff; font-weight : bold; 
+font-family : "Arial", Sans-serif }
+*.ee102 { font-size : 12.00pt; color : #3366ff; font-weight : bold; 
+font-family : "Arial", Sans-serif; text-align : center }
+*.ee101 { font-size : 9.00pt; font-weight : bold; 
+font-family : "Arial", Sans-serif }
+*.ee100 { font-size : 9.00pt; font-family : "Arial", Sans-serif }
+</style>
+<script language="javascript">
+
+var co = new Object;
+function recalc_onclick(ctl) {
+  if (document.formc.automatic_recalc.checked || ctl=='') {
+
+
+co.p1R2=eeparseFloat(document.formc.p1R2[document.formc.p1R2.selectedIndex].value);co.p1T2=eeparseFloat(document.formc.p1T2[document.formc.p1T2.selectedIndex].value);co.p1V2=eeparseFloat(document.formc.p1V2[document.formc.p1V2.selectedIndex].value);co.p1E5=eeparseFloatTh(document.formc.p1E5.value);co.p1E6=eeparseFloatTh(document.formc.p1E6.value);co.p1E7=eeparseFloat(document.formc.p1E7.value);co.p1E8=eeparseFloat(document.formc.p1E8.value);co.p1E13=eeparseFloatTh(document.formc.p1E13.value);co.p1E14=eeparseFloatTh(document.formc.p1E14.value);calc(co);document.formc.p1S2.value=eedisplayFloat(co.p1S2);document.formc.p1U2.value=eedisplayFloatND(co.p1U2,2);document.formc.p1S3.value=eeisnumber(co.p1S3)-eedisplayFloat(co.p1S3):co.p1S3;document.formc.p1U3.value=eeisnumber(co.p1U3)-eedisplayFloatND(co.p1U3,2):co.p1U3;document.formc.p1X3.value=eedisplayFloatNDTh(co.p1X3,0);document.formc.p1Y3.value=eedisplayFloatND(co.p1Y3,0);document.formc.p1Z3.value=eedisplayFloatND(co.p1Z3,0);document.formc.p1AA3.value=eedisplayFloatND(co.p1AA3,0);document.formc.p1AB3.value=eedisplayFloatND(co.p1AB3,0);document.formc.p1AC3.value=eedisplayFloatND(co.p1AC3,0);document.formc.p1AD3.value=eedisplayFloatNDTh(co.p1AD3,0);document.formc.p1AE3.value=eedisplayFloatNDTh(co.p1AE3,0);document.formc.p1AF3.value=eedisplayFloatND(co.p1AF3,0);document.formc.p1AG3.value=eedisplayFloatND(co.p1AG3,0);document.formc.p1S4.value=eeisnumber(co.p1S4)-eedisplayFloat(co.p1S4):co.p1S4;document.formc.p1U4.value=eeisnumber(co.p1U4)-eedisplayFloatND(co.p1U4,2):co.p1U4;document.formc.p1X4.value=eedisplayFloatND(co.p1X4,0);document.formc.p1Y4.value=eedisplayFloatND(co.p1Y4,0);document.formc.p1Z4.value=eedisplayFloatND(co.p1Z4,0);document.formc.p1AA4.value=eedisplayFloatND(co.p1AA4,0);document.formc.p1AB4.value=eedisplayFloatND(co.p1AB4,0);document.formc.p1AC4.value=eedisplayFloatND(co.p1AC4,0);document.formc.p1AD4.value=eedisplayFloatNDTh(co.p1AD4,0);document.formc.p1AE4.value=eedisplayFloatNDTh(co.p1AE4,0);document.formc.p1AF4.value=eedisplayFloatND(co.p1AF4,0);document.formc.p1AG4.value=eedisplayFloatND(co.p1AG4,0);document.formc.p1S5.value=eeisnumber(co.p1S5)-eedisplayFloat(co.p1S5):co.p1S5;document.formc.p1U5.value=eeisnumber(co.p1U5)-eedisplayFloatND(co.p1U5,2):co.p1U5;document.formc.p1X5.value=eedisplayFloatND(co.p1X5,0);document.formc.p1Y5.value=eedisplayFloatND(co.p1Y5,0);document.formc.p1Z5.value=eedisplayFloatND(co.p1Z5,0);document.formc.p1AA5.value=eedisplayFloatND(co.p1AA5,0);document.formc.p1AB5.value=eedisplayFloatND(co.p1AB5,0);document.formc.p1AC5.value=eedisplayFloatND(co.p1AC5,0);document.formc.p1AD5.value=eedisplayFloatNDTh(co.p1AD5,0);document.formc.p1AE5.value=eedisplayFloatNDTh(co.p1AE5,0);document.formc.p1AF5.value=eedisplayFloatND(co.p1AF5,0);document.formc.p1AG5.value=eedisplayFloatND(co.p1AG5,0);document.formc.p1S6.value=eeisnumber(co.p1S6)-eedisplayFloat(co.p1S6):co.p1S6;document.formc.p1U6.value=eeisnumber(co.p1U6)-eedisplayFloatND(co.p1U6,2):co.p1U6;document.formc.p1X6.value=eedisplayFloatND(co.p1X6,0);document.formc.p1Y6.value=eedisplayFloatND(co.p1Y6,0);document.formc.p1Z6.value=eedisplayFloatND(co.p1Z6,0);document.formc.p1AA6.value=eedisplayFloatND(co.p1AA6,0);document.formc.p1AB6.value=eedisplayFloatND(co.p1AB6,0);document.formc.p1AC6.value=eedisplayFloatND(co.p1AC6,0);document.formc.p1AD6.value=eedisplayFloatNDTh(co.p1AD6,0);document.formc.p1AE6.value=eedisplayFloatNDTh(co.p1AE6,0);document.formc.p1AF6.value=eedisplayFloatND(co.p1AF6,0);document.formc.p1AG6.value=eedisplayFloatND(co.p1AG6,0);document.formc.p1S7.value=eeisnumber(co.p1S7)-eedisplayFloat(co.p1S7):co.p1S7;document.formc.p1U7.value=eeisnumber(co.p1U7)-eedisplayFloatND(co.p1U7,2):co.p1U7;document.formc.p1X7.value=eedisplayFloatND(co.p1X7,0);document.formc.p1Y7.value=eedisplayFloatND(co.p1Y7,0);document.formc.p1Z7.value=eedisplayFloatND(co.p1Z7,0);document.formc.p1AA7.value=eedisplayFloatND(co.p1AA7,0);document.formc.p1AB7.value=eedisplayFloatND(co.p1AB7,0);document.formc.p1AC7.value=eedisplayFloatND(co.p1AC7,0);document.formc.p1AD7.value=eedisplayFloatNDTh(co.p1AD7,0);document.formc.p1AE7.value=eedisplayFloatNDTh(co.p1AE7,0);document.formc.p1AF7.value=eedisplayFloatND(co.p1AF7,0);document.formc.p1AG7.value=eedisplayFloatND(co.p1AG7,0);document.formc.p1S8.value=eeisnumber(co.p1S8)-eedisplayFloat(co.p1S8):co.p1S8;document.formc.p1U8.value=eeisnumber(co.p1U8)-eedisplayFloatND(co.p1U8,2):co.p1U8;document.formc.p1X8.value=eedisplayFloatND(co.p1X8,0);document.formc.p1Y8.value=eedisplayFloatND(co.p1Y8,0);document.formc.p1Z8.value=eedisplayFloatND(co.p1Z8,0);document.formc.p1AA8.value=eedisplayFloatND(co.p1AA8,0);document.formc.p1AB8.value=eedisplayFloatND(co.p1AB8,0);document.formc.p1AC8.value=eedisplayFloatND(co.p1AC8,0);document.formc.p1AD8.value=eedisplayFloatNDTh(co.p1AD8,0);document.formc.p1AE8.value=eedisplayFloatNDTh(co.p1AE8,0);document.formc.p1AF8.value=eedisplayFloatND(co.p1AF8,0);document.formc.p1AG8.value=eedisplayFloatND(co.p1AG8,0);document.formc.p1E9.value=eedisplayFloatNDTh(co.p1E9,0);document.formc.p1S9.value=eeisnumber(co.p1S9)-eedisplayFloat(co.p1S9):co.p1S9;document.formc.p1U9.value=eeisnumber(co.p1U9)-eedisplayFloatND(co.p1U9,2):co.p1U9;document.formc.p1X9.value=eedisplayFloatND(co.p1X9,0);document.formc.p1Y9.value=eedisplayFloatND(co.p1Y9,0);document.formc.p1Z9.value=eedisplayFloatND(co.p1Z9,0);document.formc.p1AA9.value=eedisplayFloatND(co.p1AA9,0);document.formc.p1AB9.value=eedisplayFloatND(co.p1AB9,0);document.formc.p1AC9.value=eedisplayFloatND(co.p1AC9,0);document.formc.p1AD9.value=eedisplayFloatNDTh(co.p1AD9,0);document.formc.p1AE9.value=eedisplayFloatNDTh(co.p1AE9,0);document.formc.p1AF9.value=eedisplayFloatND(co.p1AF9,0);document.formc.p1AG9.value=eedisplayFloatND(co.p1AG9,0);document.formc.p1K10.value=eedisplayFloatNDTh(co.p1K10,0);document.formc.p1N10.value=eedisplayFloatNDTh(co.p1N10,0);document.formc.p1S10.value=eeisnumber(co.p1S10)-eedisplayFloat(co.p1S10):co.p1S10;document.formc.p1U10.value=eeisnumber(co.p1U10)-eedisplayFloatND(co.p1U10,2):co.p1U10;document.formc.p1X10.value=eedisplayFloatND(co.p1X10,0);document.formc.p1Y10.value=eedisplayFloatND(co.p1Y10,0);document.formc.p1Z10.value=eedisplayFloatND(co.p1Z10,0);document.formc.p1AA10.value=eedisplayFloatND(co.p1AA10,0);document.formc.p1AB10.value=eedisplayFloatND(co.p1AB10,0);document.formc.p1AC10.value=eedisplayFloatND(co.p1AC10,0);document.formc.p1AD10.value=eedisplayFloatNDTh(co.p1AD10,0);document.formc.p1AE10.value=eedisplayFloatNDTh(co.p1AE10,0);document.formc.p1AF10.value=eedisplayFloatND(co.p1AF10,0);document.formc.p1AG10.value=eedisplayFloatND(co.p1AG10,0);document.formc.p1S11.value=eeisnumber(co.p1S11)-eedisplayFloat(co.p1S11):co.p1S11;document.formc.p1U11.value=eeisnumber(co.p1U11)-eedisplayFloatND(co.p1U11,2):co.p1U11;document.formc.p1X11.value=eedisplayFloatND(co.p1X11,0);document.formc.p1Y11.value=eedisplayFloatND(co.p1Y11,0);document.formc.p1Z11.value=eedisplayFloatND(co.p1Z11,0);document.formc.p1AA11.value=eedisplayFloatND(co.p1AA11,0);document.formc.p1AB11.value=eedisplayFloatND(co.p1AB11,0);document.formc.p1AC11.value=eedisplayFloatND(co.p1AC11,0);document.formc.p1AD11.value=eedisplayFloatNDTh(co.p1AD11,0);document.formc.p1AE11.value=eedisplayFloatNDTh(co.p1AE11,0);document.formc.p1AF11.value=eedisplayFloatND(co.p1AF11,0);document.formc.p1AG11.value=eedisplayFloatND(co.p1AG11,0);document.formc.p1K12.value=eedisplayFloatNDTh(co.p1K12,0);document.formc.p1N12.value=eedisplayFloatNDTh(co.p1N12,0);document.formc.p1S12.value=eeisnumber(co.p1S12)-eedisplayFloat(co.p1S12):co.p1S12;document.formc.p1U12.value=eeisnumber(co.p1U12)-eedisplayFloatND(co.p1U12,2):co.p1U12;document.formc.p1X12.value=eedisplayFloatND(co.p1X12,0);document.formc.p1Y12.value=eedisplayFloatND(co.p1Y12,0);document.formc.p1Z12.value=eedisplayFloatND(co.p1Z12,0);document.formc.p1AA12.value=eedisplayFloatND(co.p1AA12,0);document.formc.p1AB12.value=eedisplayFloatND(co.p1AB12,0);document.formc.p1AC12.value=eedisplayFloatND(co.p1AC12,0);document.formc.p1AD12.value=eedisplayFloatNDTh(co.p1AD12,0);document.formc.p1AE12.value=eedisplayFloatNDTh(co.p1AE12,0);document.formc.p1AF12.value=eedisplayFloatND(co.p1AF12,0);document.formc.p1AG12.value=eedisplayFloatND(co.p1AG12,0);document.formc.p1S13.value=eeisnumber(co.p1S13)-eedisplayFloat(co.p1S13):co.p1S13;document.formc.p1U13.value=eeisnumber(co.p1U13)-eedisplayFloatND(co.p1U13,2):co.p1U13;document.formc.p1X13.value=eedisplayFloatND(co.p1X13,0);document.formc.p1Y13.value=eedisplayFloatND(co.p1Y13,0);document.formc.p1Z13.value=eedisplayFloatND(co.p1Z13,0);document.formc.p1AA13.value=eedisplayFloatND(co.p1AA13,0);document.formc.p1AB13.value=eedisplayFloatND(co.p1AB13,0);document.formc.p1AC13.value=eedisplayFloatND(co.p1AC13,0);document.formc.p1AD13.value=eedisplayFloatNDTh(co.p1AD13,0);document.formc.p1AE13.value=eedisplayFloatNDTh(co.p1AE13,0);document.formc.p1AF13.value=eedisplayFloatND(co.p1AF13,0);document.formc.p1AG13.value=eedisplayFloatND(co.p1AG13,0);document.formc.p1S14.value=eeisnumber(co.p1S14)-eedisplayFloat(co.p1S14):co.p1S14;document.formc.p1U14.value=eeisnumber(co.p1U14)-eedisplayFloatND(co.p1U14,2):co.p1U14;document.formc.p1X14.value=eedisplayFloatND(co.p1X14,0);document.formc.p1Y14.value=eedisplayFloatND(co.p1Y14,0);document.formc.p1Z14.value=eedisplayFloatND(co.p1Z14,0);document.formc.p1AA14.value=eedisplayFloatND(co.p1AA14,0);document.formc.p1AB14.value=eedisplayFloatND(co.p1AB14,0);document.formc.p1AC14.value=eedisplayFloatND(co.p1AC14,0);document.formc.p1AD14.value=eedisplayFloatNDTh(co.p1AD14,0);document.formc.p1AE14.value=eedisplayFloatNDTh(co.p1AE14,0);document.formc.p1AF14.value=eedisplayFloatND(co.p1AF14,0);document.formc.p1AG14.value=eedisplayFloatND(co.p1AG14,0);document.formc.p1E15.value=eeisnumber(co.p1E15)-eedisplayPercentND(co.p1E15,0):co.p1E15;document.formc.p1S15.value=eeisnumber(co.p1S15)-eedisplayFloat(co.p1S15):co.p1S15;document.formc.p1U15.value=eeisnumber(co.p1U15)-eedisplayFloatND(co.p1U15,2):co.p1U15;document.formc.p1X15.value=eedisplayFloatND(co.p1X15,0);document.formc.p1Y15.value=eedisplayFloatND(co.p1Y15,0);document.formc.p1Z15.value=eedisplayFloatND(co.p1Z15,0);document.formc.p1AA15.value=eedisplayFloatND(co.p1AA15,0);document.formc.p1AB15.value=eedisplayFloatND(co.p1AB15,0);document.formc.p1AC15.value=eedisplayFloatND(co.p1AC15,0);document.formc.p1AD15.value=eedisplayFloatNDTh(co.p1AD15,0);document.formc.p1AE15.value=eedisplayFloatNDTh(co.p1AE15,0);document.formc.p1AF15.value=eedisplayFloatND(co.p1AF15,0);document.formc.p1AG15.value=eedisplayFloatND(co.p1AG15,0);document.formc.p1E16.value=eedisplayFloatNDTh(co.p1E16,0);document.formc.p1S16.value=eeisnumber(co.p1S16)-eedisplayFloat(co.p1S16):co.p1S16;document.formc.p1U16.value=eeisnumber(co.p1U16)-eedisplayFloatND(co.p1U16,2):co.p1U16;document.formc.p1X16.value=eedisplayFloatND(co.p1X16,0);document.formc.p1Y16.value=eedisplayFloatND(co.p1Y16,0);document.formc.p1Z16.value=eedisplayFloatND(co.p1Z16,0);document.formc.p1AA16.value=eedisplayFloatND(co.p1AA16,0);document.formc.p1AB16.value=eedisplayFloatND(co.p1AB16,0);document.formc.p1AC16.value=eedisplayFloatND(co.p1AC16,0);document.formc.p1AD16.value=eedisplayFloatNDTh(co.p1AD16,0);document.formc.p1AE16.value=eedisplayFloatNDTh(co.p1AE16,0);document.formc.p1AF16.value=eedisplayFloatND(co.p1AF16,0);document.formc.p1AG16.value=eedisplayFloatND(co.p1AG16,0);document.formc.p1S17.value=eeisnumber(co.p1S17)-eedisplayFloat(co.p1S17):co.p1S17;document.formc.p1U17.value=eeisnumber(co.p1U17)-eedisplayFloatND(co.p1U17,2):co.p1U17;document.formc.p1X17.value=eedisplayFloatND(co.p1X17,0);document.formc.p1Y17.value=eedisplayFloatND(co.p1Y17,0);document.formc.p1Z17.value=eedisplayFloatND(co.p1Z17,0);document.formc.p1AA17.value=eedisplayFloatND(co.p1AA17,0);document.formc.p1AB17.value=eedisplayFloatND(co.p1AB17,0);document.formc.p1AC17.value=eedisplayFloatND(co.p1AC17,0);document.formc.p1AD17.value=eedisplayFloatNDTh(co.p1AD17,0);document.formc.p1AE17.value=eedisplayFloatNDTh(co.p1AE17,0);document.formc.p1AF17.value=eedisplayFloatND(co.p1AF17,0);document.formc.p1AG17.value=eedisplayFloatND(co.p1AG17,0);document.formc.p1S18.value=eeisnumber(co.p1S18)-eedisplayFloat(co.p1S18):co.p1S18;document.formc.p1U18.value=eeisnumber(co.p1U18)-eedisplayFloatND(co.p1U18,2):co.p1U18;document.formc.p1X18.value=eedisplayFloatND(co.p1X18,0);document.formc.p1Y18.value=eedisplayFloatND(co.p1Y18,0);document.formc.p1Z18.value=eedisplayFloatND(co.p1Z18,0);document.formc.p1AA18.value=eedisplayFloatND(co.p1AA18,0);document.formc.p1AB18.value=eedisplayFloatND(co.p1AB18,0);document.formc.p1AC18.value=eedisplayFloatND(co.p1AC18,0);document.formc.p1AD18.value=eedisplayFloatNDTh(co.p1AD18,0);document.formc.p1AE18.value=eedisplayFloatNDTh(co.p1AE18,0);document.formc.p1AF18.value=eedisplayFloatND(co.p1AF18,0);document.formc.p1AG18.value=eedisplayFloatND(co.p1AG18,0);document.formc.p1S19.value=eeisnumber(co.p1S19)-eedisplayFloat(co.p1S19):co.p1S19;document.formc.p1U19.value=eeisnumber(co.p1U19)-eedisplayFloatND(co.p1U19,2):co.p1U19;document.formc.p1X19.value=eedisplayFloatND(co.p1X19,0);document.formc.p1Y19.value=eedisplayFloatND(co.p1Y19,0);document.formc.p1Z19.value=eedisplayFloatND(co.p1Z19,0);document.formc.p1AA19.value=eedisplayFloatND(co.p1AA19,0);document.formc.p1AB19.value=eedisplayFloatND(co.p1AB19,0);document.formc.p1AC19.value=eedisplayFloatND(co.p1AC19,0);document.formc.p1AD19.value=eedisplayFloatNDTh(co.p1AD19,0);document.formc.p1AE19.value=eedisplayFloatNDTh(co.p1AE19,0);document.formc.p1AF19.value=eedisplayFloatND(co.p1AF19,0);document.formc.p1AG19.value=eedisplayFloatND(co.p1AG19,0);document.formc.p1S20.value=eeisnumber(co.p1S20)-eedisplayFloat(co.p1S20):co.p1S20;document.formc.p1U20.value=eeisnumber(co.p1U20)-eedisplayFloatND(co.p1U20,2):co.p1U20;document.formc.p1X20.value=eedisplayFloatND(co.p1X20,0);document.formc.p1Y20.value=eedisplayFloatND(co.p1Y20,0);document.formc.p1Z20.value=eedisplayFloatND(co.p1Z20,0);document.formc.p1AA20.value=eedisplayFloatND(co.p1AA20,0);document.formc.p1AB20.value=eedisplayFloatND(co.p1AB20,0);document.formc.p1AC20.value=eedisplayFloatND(co.p1AC20,0);document.formc.p1AD20.value=eedisplayFloatNDTh(co.p1AD20,0);document.formc.p1AE20.value=eedisplayFloatNDTh(co.p1AE20,0);document.formc.p1AF20.value=eedisplayFloatND(co.p1AF20,0);document.formc.p1AG20.value=eedisplayFloatND(co.p1AG20,0);document.formc.p1S21.value=eeisnumber(co.p1S21)-eedisplayFloat(co.p1S21):co.p1S21;document.formc.p1U21.value=eeisnumber(co.p1U21)-eedisplayFloatND(co.p1U21,2):co.p1U21;document.formc.p1X21.value=eedisplayFloatND(co.p1X21,0);document.formc.p1Y21.value=eedisplayFloatND(co.p1Y21,0);document.formc.p1Z21.value=eedisplayFloatND(co.p1Z21,0);document.formc.p1AA21.value=eedisplayFloatND(co.p1AA21,0);document.formc.p1AB21.value=eedisplayFloatND(co.p1AB21,0);document.formc.p1AC21.value=eedisplayFloatND(co.p1AC21,0);document.formc.p1AD21.value=eedisplayFloatNDTh(co.p1AD21,0);document.formc.p1AE21.value=eedisplayFloatNDTh(co.p1AE21,0);document.formc.p1AF21.value=eedisplayFloatND(co.p1AF21,0);document.formc.p1AG21.value=eedisplayFloatND(co.p1AG21,0);document.formc.p1S22.value=eeisnumber(co.p1S22)-eedisplayFloat(co.p1S22):co.p1S22;document.formc.p1U22.value=eeisnumber(co.p1U22)-eedisplayFloatND(co.p1U22,2):co.p1U22;document.formc.p1X22.value=eedisplayFloatND(co.p1X22,0);document.formc.p1Y22.value=eedisplayFloatND(co.p1Y22,0);document.formc.p1Z22.value=eedisplayFloatND(co.p1Z22,0);document.formc.p1AA22.value=eedisplayFloatND(co.p1AA22,0);document.formc.p1AB22.value=eedisplayFloatND(co.p1AB22,0);document.formc.p1AC22.value=eedisplayFloatND(co.p1AC22,0);document.formc.p1AD22.value=eedisplayFloatNDTh(co.p1AD22,0);document.formc.p1AE22.value=eedisplayFloatNDTh(co.p1AE22,0);document.formc.p1AF22.value=eedisplayFloatND(co.p1AF22,0);document.formc.p1AG22.value=eedisplayFloatND(co.p1AG22,0);document.formc.p1S23.value=eeisnumber(co.p1S23)-eedisplayFloat(co.p1S23):co.p1S23;document.formc.p1U23.value=eeisnumber(co.p1U23)-eedisplayFloatND(co.p1U23,2):co.p1U23;document.formc.p1X23.value=eedisplayFloatND(co.p1X23,0);document.formc.p1Y23.value=eedisplayFloatND(co.p1Y23,0);document.formc.p1Z23.value=eedisplayFloatND(co.p1Z23,0);document.formc.p1AA23.value=eedisplayFloatND(co.p1AA23,0);document.formc.p1AB23.value=eedisplayFloatND(co.p1AB23,0);document.formc.p1AC23.value=eedisplayFloatND(co.p1AC23,0);document.formc.p1AD23.value=eedisplayFloatNDTh(co.p1AD23,0);document.formc.p1AE23.value=eedisplayFloatNDTh(co.p1AE23,0);document.formc.p1AF23.value=eedisplayFloatND(co.p1AF23,0);document.formc.p1AG23.value=eedisplayFloatND(co.p1AG23,0);document.formc.p1S24.value=eeisnumber(co.p1S24)-eedisplayFloat(co.p1S24):co.p1S24;document.formc.p1U24.value=eeisnumber(co.p1U24)-eedisplayFloatND(co.p1U24,2):co.p1U24;document.formc.p1X24.value=eedisplayFloatND(co.p1X24,0);document.formc.p1Y24.value=eedisplayFloatND(co.p1Y24,0);document.formc.p1Z24.value=eedisplayFloatND(co.p1Z24,0);document.formc.p1AA24.value=eedisplayFloatND(co.p1AA24,0);document.formc.p1AB24.value=eedisplayFloatND(co.p1AB24,0);document.formc.p1AC24.value=eedisplayFloatND(co.p1AC24,0);document.formc.p1AD24.value=eedisplayFloatNDTh(co.p1AD24,0);document.formc.p1AE24.value=eedisplayFloatNDTh(co.p1AE24,0);document.formc.p1AF24.value=eedisplayFloatND(co.p1AF24,0);document.formc.p1AG24.value=eedisplayFloatND(co.p1AG24,0);document.formc.p1S25.value=eeisnumber(co.p1S25)-eedisplayFloat(co.p1S25):co.p1S25;document.formc.p1U25.value=eeisnumber(co.p1U25)-eedisplayFloatND(co.p1U25,2):co.p1U25;document.formc.p1X25.value=eedisplayFloatND(co.p1X25,0);document.formc.p1Y25.value=eedisplayFloatND(co.p1Y25,0);document.formc.p1Z25.value=eedisplayFloatND(co.p1Z25,0);document.formc.p1AA25.value=eedisplayFloatND(co.p1AA25,0);document.formc.p1AB25.value=eedisplayFloatND(co.p1AB25,0);document.formc.p1AC25.value=eedisplayFloatND(co.p1AC25,0);document.formc.p1AD25.value=eedisplayFloatNDTh(co.p1AD25,0);document.formc.p1AE25.value=eedisplayFloatNDTh(co.p1AE25,0);document.formc.p1AF25.value=eedisplayFloatND(co.p1AF25,0);document.formc.p1AG25.value=eedisplayFloatND(co.p1AG25,0);document.formc.p1S26.value=eeisnumber(co.p1S26)-eedisplayFloat(co.p1S26):co.p1S26;document.formc.p1U26.value=eeisnumber(co.p1U26)-eedisplayFloatND(co.p1U26,2):co.p1U26;document.formc.p1X26.value=eedisplayFloatND(co.p1X26,0);document.formc.p1Y26.value=eedisplayFloatND(co.p1Y26,0);document.formc.p1Z26.value=eedisplayFloatND(co.p1Z26,0);document.formc.p1AA26.value=eedisplayFloatND(co.p1AA26,0);document.formc.p1AB26.value=eedisplayFloatND(co.p1AB26,0);document.formc.p1AC26.value=eedisplayFloatND(co.p1AC26,0);document.formc.p1AD26.value=eedisplayFloatNDTh(co.p1AD26,0);document.formc.p1AE26.value=eedisplayFloatNDTh(co.p1AE26,0);document.formc.p1AF26.value=eedisplayFloatND(co.p1AF26,0);document.formc.p1AG26.value=eedisplayFloatND(co.p1AG26,0);document.formc.p1S27.value=eeisnumber(co.p1S27)-eedisplayFloat(co.p1S27):co.p1S27;document.formc.p1U27.value=eeisnumber(co.p1U27)-eedisplayFloatND(co.p1U27,2):co.p1U27;document.formc.p1X27.value=eedisplayFloatND(co.p1X27,0);document.formc.p1Y27.value=eedisplayFloatND(co.p1Y27,0);document.formc.p1Z27.value=eedisplayFloatND(co.p1Z27,0);document.formc.p1AA27.value=eedisplayFloatND(co.p1AA27,0);document.formc.p1AB27.value=eedisplayFloatND(co.p1AB27,0);document.formc.p1AC27.value=eedisplayFloatND(co.p1AC27,0);document.formc.p1AD27.value=eedisplayFloatNDTh(co.p1AD27,0);document.formc.p1AE27.value=eedisplayFloatNDTh(co.p1AE27,0);document.formc.p1AF27.value=eedisplayFloatND(co.p1AF27,0);document.formc.p1AG27.value=eedisplayFloatND(co.p1AG27,0);document.formc.p1U28.value=eeisnumber(co.p1U28)-eedisplayFloatND(co.p1U28,2):co.p1U28;document.formc.p1AC28.value=eedisplayFloatND(co.p1AC28,0);document.formc.p1AF28.value=eedisplayFloatND(co.p1AF28,0);document.formc.p1AG28.value=eedisplayFloatND(co.p1AG28,0);document.formc.p1U29.value=eeisnumber(co.p1U29)-eedisplayFloatND(co.p1U29,2):co.p1U29;document.formc.p1AC29.value=eedisplayFloatNDTh(co.p1AC29,0);document.formc.p1AG29.value=eedisplayFloat(co.p1AG29);document.formc.p1U30.value=eeisnumber(co.p1U30)-eedisplayFloatND(co.p1U30,2):co.p1U30;document.formc.p1U31.value=eeisnumber(co.p1U31)-eedisplayFloatND(co.p1U31,2):co.p1U31;document.formc.p1U32.value=eeisnumber(co.p1U32)-eedisplayFloatND(co.p1U32,2):co.p1U32;document.formc.p1U33.value=eeisnumber(co.p1U33)-eedisplayFloatND(co.p1U33,2):co.p1U33;document.formc.p1U34.value=eeisnumber(co.p1U34)-eedisplayFloatND(co.p1U34,2):co.p1U34;document.formc.p1U35.value=eeisnumber(co.p1U35)-eedisplayFloatND(co.p1U35,2):co.p1U35;document.formc.p1U36.value=eeisnumber(co.p1U36)-eedisplayFloatND(co.p1U36,2):co.p1U36;document.formc.p1U37.value=eeisnumber(co.p1U37)-eedisplayFloatND(co.p1U37,2):co.p1U37;document.formc.p1U38.value=eeisnumber(co.p1U38)-eedisplayFloatND(co.p1U38,2):co.p1U38;document.formc.p1U39.value=eeisnumber(co.p1U39)-eedisplayFloatND(co.p1U39,2):co.p1U39;document.formc.p1U40.value=eeisnumber(co.p1U40)-eedisplayFloatND(co.p1U40,2):co.p1U40;document.formc.p1U41.value=eeisnumber(co.p1U41)-eedisplayFloatND(co.p1U41,2):co.p1U41;document.formc.p1U42.value=eeisnumber(co.p1U42)-eedisplayFloatND(co.p1U42,2):co.p1U42;document.formc.p1U43.value=eeisnumber(co.p1U43)-eedisplayFloatND(co.p1U43,2):co.p1U43;document.formc.p1U44.value=eeisnumber(co.p1U44)-eedisplayFloatND(co.p1U44,2):co.p1U44;document.formc.p1U45.value=eeisnumber(co.p1U45)-eedisplayFloatND(co.p1U45,2):co.p1U45;document.formc.p1U46.value=eeisnumber(co.p1U46)-eedisplayFloatND(co.p1U46,2):co.p1U46;document.formc.p1U47.value=eeisnumber(co.p1U47)-eedisplayFloatND(co.p1U47,2):co.p1U47;document.formc.p1U48.value=eeisnumber(co.p1U48)-eedisplayFloatND(co.p1U48,2):co.p1U48;document.formc.p1U49.value=eeisnumber(co.p1U49)-eedisplayFloatND(co.p1U49,2):co.p1U49;document.formc.p1U50.value=eeisnumber(co.p1U50)-eedisplayFloatND(co.p1U50,2):co.p1U50;document.formc.p1U51.value=eeisnumber(co.p1U51)-eedisplayFloatND(co.p1U51,2):co.p1U51;document.formc.p1U52.value=eeisnumber(co.p1U52)-eedisplayFloatND(co.p1U52,2):co.p1U52;document.formc.p1U53.value=eeisnumber(co.p1U53)-eedisplayFloatND(co.p1U53,2):co.p1U53;document.formc.p1U54.value=eeisnumber(co.p1U54)-eedisplayFloatND(co.p1U54,2):co.p1U54;document.formc.p1U55.value=eeisnumber(co.p1U55)-eedisplayFloatND(co.p1U55,2):co.p1U55;document.formc.p1U56.value=eeisnumber(co.p1U56)-eedisplayFloatND(co.p1U56,2):co.p1U56;document.formc.p1U57.value=eeisnumber(co.p1U57)-eedisplayFloatND(co.p1U57,2):co.p1U57;document.formc.p1U58.value=eeisnumber(co.p1U58)-eedisplayFloatND(co.p1U58,2):co.p1U58;document.formc.p1U59.value=eeisnumber(co.p1U59)-eedisplayFloatND(co.p1U59,2):co.p1U59;document.formc.p1U60.value=eeisnumber(co.p1U60)-eedisplayFloatND(co.p1U60,2):co.p1U60;document.formc.p1U61.value=eeisnumber(co.p1U61)-eedisplayFloatND(co.p1U61,2):co.p1U61;document.formc.p1U62.value=eeisnumber(co.p1U62)-eedisplayFloatND(co.p1U62,2):co.p1U62;document.formc.p1U63.value=eeisnumber(co.p1U63)-eedisplayFloatND(co.p1U63,2):co.p1U63;document.formc.p1U64.value=eeisnumber(co.p1U64)-eedisplayFloatND(co.p1U64,2):co.p1U64;document.formc.p1U65.value=eeisnumber(co.p1U65)-eedisplayFloatND(co.p1U65,2):co.p1U65;document.formc.p1U66.value=eeisnumber(co.p1U66)-eedisplayFloatND(co.p1U66,2):co.p1U66;document.formc.p1U67.value=eeisnumber(co.p1U67)-eedisplayFloatND(co.p1U67,2):co.p1U67;document.formc.p1U68.value=eeisnumber(co.p1U68)-eedisplayFloatND(co.p1U68,2):co.p1U68;document.formc.p1U69.value=eeisnumber(co.p1U69)-eedisplayFloatND(co.p1U69,2):co.p1U69;document.formc.p1U70.value=eeisnumber(co.p1U70)-eedisplayFloatND(co.p1U70,2):co.p1U70;document.formc.p1U71.value=eeisnumber(co.p1U71)-eedisplayFloatND(co.p1U71,2):co.p1U71;document.formc.p1U72.value=eeisnumber(co.p1U72)-eedisplayFloatND(co.p1U72,2):co.p1U72;document.formc.p1U73.value=eeisnumber(co.p1U73)-eedisplayFloatND(co.p1U73,2):co.p1U73;document.formc.p1U74.value=eeisnumber(co.p1U74)-eedisplayFloatND(co.p1U74,2):co.p1U74;document.formc.p1U75.value=eeisnumber(co.p1U75)-eedisplayFloatND(co.p1U75,2):co.p1U75;document.formc.p1U76.value=eeisnumber(co.p1U76)-eedisplayFloatND(co.p1U76,2):co.p1U76;document.formc.p1U77.value=eeisnumber(co.p1U77)-eedisplayFloatND(co.p1U77,2):co.p1U77;document.formc.p1U78.value=eeisnumber(co.p1U78)-eedisplayFloatND(co.p1U78,2):co.p1U78;document.formc.p1U79.value=eeisnumber(co.p1U79)-eedisplayFloatND(co.p1U79,2):co.p1U79;document.formc.p1U80.value=eeisnumber(co.p1U80)-eedisplayFloatND(co.p1U80,2):co.p1U80;document.formc.p1U81.value=eeisnumber(co.p1U81)-eedisplayFloatND(co.p1U81,2):co.p1U81;document.formc.p1U82.value=eeisnumber(co.p1U82)-eedisplayFloatND(co.p1U82,2):co.p1U82;document.formc.p1U83.value=eeisnumber(co.p1U83)-eedisplayFloatND(co.p1U83,2):co.p1U83;
+};};</script><noscript>The browser does not support JavaScript. The calculations created using <a  href="http://www.exceleverywhere.com">ExcelEverywhere</a> will not work. Please access the web page using another browser.<p></noscript>
+<script language="javascript">var eeisus=0;var eetrue="TRUE";var eefalse="FALSE";var eedec=".";var eeth=",";var eedecreg=new RegExp("[.]","g");var eethreg=new RegExp(",","g");var arr1xS3S27=new Array(25);for(var ii=0;ii<25;ii++){arr1xS3S27[ii]=new Array(1);for(var jj=0;jj<1;jj++){arr1xS3S27[ii][jj]=0}};var arr1xU3U83=new Array(81);for(var ii=0;ii<81;ii++){arr1xU3U83[ii]=new Array(1);for(var jj=0;jj<1;jj++){arr1xU3U83[ii][jj]=0}};var arr1xAC3AC27=new Array(25);for(var ii=0;ii<25;ii++){arr1xAC3AC27[ii]=new Array(1);for(var jj=0;jj<1;jj++){arr1xAC3AC27[ii][jj]=0}};var arr1xAF3AF27=new Array(25);for(var ii=0;ii<25;ii++){arr1xAF3AF27[ii]=new Array(1);for(var jj=0;jj<1;jj++){arr1xAF3AF27[ii][jj]=0}};var arr1xAG3AG27=new Array(25);for(var ii=0;ii<25;ii++){arr1xAG3AG27[ii]=new Array(1);for(var jj=0;jj<1;jj++){arr1xAG3AG27[ii][jj]=0}};var eecm4=new Array();var eecm3=new Array(new Array(arr1xAC3AC27,0,0,24,0));var eecm2=new Array(new Array(arr1xAF3AF27,0,0,24,0));var eecm1=new Array(new Array(arr1xAG3AG27,0,0,24,0));function calc(data){var c1R2=data.p1R2;var c1T2=data.p1T2;var c1V2=data.p1V2;var c1E5=data.p1E5;var c1E6=data.p1E6;var c1E7=data.p1E7;var c1E8=data.p1E8;var c1E13=data.p1E13;var c1E14=data.p1E14;var c1R3=(25);var c1T3=(0.5);var c1R4=(24);var c1T4=(0.75);var c1R5=(23);var c1T5=(1);var c1R6=(22);var c1T6=(1.25);var c1R7=(21);var c1T7=(1.5);var c1R8=(20);var c1T8=(1.75);var c1R9=(19);var c1T9=(2);var c1R10=(18);var c1T10=(2.25);var c1R11=(17);var c1T11=(2.5);var c1R12=(16);var c1T12=(2.75);var c1R13=(15);var c1T13=(3);var c1R14=(14);var c1T14=(3.25);var c1R15=(13);var c1T15=(3.5);var c1R16=(12);var c1T16=(3.75);var c1R17=(11);var c1T17=(4);var c1R18=(10);var c1T18=(4.25);var c1R19=(9);var c1T19=(4.5);var c1R20=(8);var c1T20=(4.75);var c1R21=(7);var c1T21=(5);var c1R22=(6);var c1T22=(5.25);var c1R23=(5);var c1T23=(5.5);var c1R24=(4);var c1T24=(5.75);var c1R25=(3);var c1T25=(6);var c1R26=(2);var c1T26=(6.25);var c1R27=(1);var c1T27=(6.5);var c1T28=(6.75);var c1T29=(7);var c1T30=(7.25);var c1T31=(7.5);var c1T32=(7.75);var c1T33=(8);var c1T34=(8.25);var c1T35=(8.5);var c1T36=(8.75);var c1T37=(9);var c1T38=(9.25);var c1T39=(9.5);var c1T40=(9.75);var c1T41=(10);var c1T42=(10.25);var c1T43=(10.5);var c1T44=(10.75);var c1T45=(11);var c1T46=(11.25);var c1T47=(11.5);var c1T48=(11.75);var c1T49=(12);var c1T50=(12.25);var c1T51=(12.5);var c1T52=(12.75);var c1T53=(13);var c1T54=(13.25);var c1T55=(13.5);var c1T56=(13.75);var c1T57=(14);var c1T58=(14.25);var c1T59=(14.5);var c1T60=(14.75);var c1T61=(15);var c1T62=(15.25);var c1T63=(15.5);var c1T64=(15.75);var c1T65=(16);var c1T66=(16.25);var c1T67=(16.5);var c1T68=(16.75);var c1T69=(17);var c1T70=(17.25);var c1T71=(17.5);var c1T72=(17.75);var c1T73=(18);var c1T74=(18.25);var c1T75=(18.5);var c1T76=(18.75);var c1T77=(19);var c1T78=(19.25);var c1T79=(19.5);var c1T80=(19.75);var c1T81=(20);var c1T82=(20.25);var c1T83=(20.5);var c2A5=(1);var c2A6=(2);var c2A7=(3);var c2A8=(4);var c2A9=(5);var c2A10=(6);var c2A11=(7);var c2A12=(8);var c2A13=(9);var c2A14=(10);var c2A15=(11);var c2A16=(12);var c2A17=(13);var c2A18=(14);var c2A19=(15);var c2A20=(16);var c2A21=(17);var c2A22=(18);var c2A23=(19);var c2A24=(20);var c2A25=(21);var c2A26=(22);var c2A27=(23);var c2A28=(24);var c2A29=(25);var c2A30=(26);var c2A31=(27);var c2A32=(28);var c2A33=(29);var c2A34=(30);var c2A35=(31);var c2A36=(32);var c2A37=(33);var c2A38=(34);var c2A39=(35);var c2A40=(36);var c2A41=(37);var c2A42=(38);var c2A43=(39);var c2A44=(40);var c2A45=(41);var c2A46=(42);var c2A47=(43);var c2A48=(44);var c2A49=(45);var c2A50=(46);var c2A51=(47);var c2A52=(48);var c2A53=(49);var c2A54=(50);var c2A55=(51);var c2A56=(52);var c2A57=(53);var c2A58=(54);var c2A59=(55);var c2A60=(56);var c2A61=(57);var c2A62=(58);var c2A63=(59);var c2A64=(60);var c2A65=(61);var c2A66=(62);var c2A67=(63);var c2A68=(64);var c2A69=(65);var c2A70=(66);var c2A71=(67);var c2A72=(68);var c2A73=(69);var c2A74=(70);var c2A75=(71);var c2A76=(72);var c2A77=(73);var c2A78=(74);var c2A79=(75);var c2A80=(76);var c2A81=(77);var c2A82=(78);var c2A83=(79);var c2A84=(80);var c2A85=(81);arr1xS3S27[0][0]=((((c1R2)==(c2A5)))-(c1R3):(""));arr1xU3U83[0][0]=((((c1T2)==(c2A5)))-(c1T3):(""));arr1xS3S27[1][0]=((((c1R2)==(c2A6)))-(c1R4):(""));arr1xU3U83[1][0]=((((c1T2)==(c2A6)))-(c1T4):(""));arr1xS3S27[2][0]=((((c1R2)==(c2A7)))-(c1R5):(""));arr1xU3U83[2][0]=((((c1T2)==(c2A7)))-(c1T5):(""));arr1xS3S27[3][0]=((((c1R2)==(c2A8)))-(c1R6):(""));arr1xU3U83[3][0]=((((c1T2)==(c2A8)))-(c1T6):(""));arr1xS3S27[4][0]=((((c1R2)==(c2A9)))-(c1R7):(""));arr1xU3U83[4][0]=((((c1T2)==(c2A9)))-(c1T7):(""));arr1xS3S27[5][0]=((((c1R2)==(c2A10)))-(c1R8):(""));arr1xU3U83[5][0]=((((c1T2)==(c2A10)))-(c1T8):(""));var c1E9=((((c1V2)==(2)))-(((c1E8)*(((c1E5)+(c1E6))))):(((c1E7)*(c1E5))));arr1xS3S27[6][0]=((((c1R2)==(c2A11)))-(c1R9):(""));arr1xU3U83[6][0]=((((c1T2)==(c2A11)))-(c1T9):(""));arr1xS3S27[7][0]=((((c1R2)==(c2A12)))-(c1R10):(""));arr1xU3U83[7][0]=((((c1T2)==(c2A12)))-(c1T10):(""));arr1xS3S27[8][0]=((((c1R2)==(c2A13)))-(c1R11):(""));arr1xU3U83[8][0]=((((c1T2)==(c2A13)))-(c1T11):(""));arr1xS3S27[9][0]=((((c1R2)==(c2A14)))-(c1R12):(""));arr1xU3U83[9][0]=((((c1T2)==(c2A14)))-(c1T12):(""));arr1xS3S27[10][0]=((((c1R2)==(c2A15)))-(c1R13):(""));arr1xU3U83[10][0]=((((c1T2)==(c2A15)))-(c1T13):(""));arr1xS3S27[11][0]=((((c1R2)==(c2A16)))-(c1R14):(""));arr1xU3U83[11][0]=((((c1T2)==(c2A16)))-(c1T14):(""));var c1E15=((((c1E14)>(0)))-(((1)-(((c1E14)/(c1E13))))):(""));arr1xS3S27[12][0]=((((c1R2)==(c2A17)))-(c1R15):(""));arr1xU3U83[12][0]=((((c1T2)==(c2A17)))-(c1T15):(""));var c1E16=(((c1E13)-(c1E14)));arr1xS3S27[13][0]=((((c1R2)==(c2A18)))-(c1R16):(""));arr1xU3U83[13][0]=((((c1T2)==(c2A18)))-(c1T16):(""));arr1xS3S27[14][0]=((((c1R2)==(c2A19)))-(c1R17):(""));arr1xU3U83[14][0]=((((c1T2)==(c2A19)))-(c1T17):(""));arr1xS3S27[15][0]=((((c1R2)==(c2A20)))-(c1R18):(""));arr1xU3U83[15][0]=((((c1T2)==(c2A20)))-(c1T18):(""));arr1xS3S27[16][0]=((((c1R2)==(c2A21)))-(c1R19):(""));arr1xU3U83[16][0]=((((c1T2)==(c2A21)))-(c1T19):(""));arr1xS3S27[17][0]=((((c1R2)==(c2A22)))-(c1R20):(""));arr1xU3U83[17][0]=((((c1T2)==(c2A22)))-(c1T20):(""));arr1xS3S27[18][0]=((((c1R2)==(c2A23)))-(c1R21):(""));arr1xU3U83[18][0]=((((c1T2)==(c2A23)))-(c1T21):(""));arr1xS3S27[19][0]=((((c1R2)==(c2A24)))-(c1R22):(""));arr1xU3U83[19][0]=((((c1T2)==(c2A24)))-(c1T22):(""));arr1xS3S27[20][0]=((((c1R2)==(c2A25)))-(c1R23):(""));arr1xU3U83[20][0]=((((c1T2)==(c2A25)))-(c1T23):(""));arr1xS3S27[21][0]=((((c1R2)==(c2A26)))-(c1R24):(""));arr1xU3U83[21][0]=((((c1T2)==(c2A26)))-(c1T24):(""));arr1xS3S27[22][0]=((((c1R2)==(c2A27)))-(c1R25):(""));arr1xU3U83[22][0]=((((c1T2)==(c2A27)))-(c1T25):(""));arr1xS3S27[23][0]=((((c1R2)==(c2A28)))-(c1R26):(""));arr1xU3U83[23][0]=((((c1T2)==(c2A28)))-(c1T26):(""));arr1xS3S27[24][0]=((((c1R2)==(c2A29)))-(c1R27):(""));arr1xU3U83[24][0]=((((c1T2)==(c2A29)))-(c1T27):(""));arr1xU3U83[25][0]=((((c1T2)==(c2A30)))-(c1T28):(""));arr1xU3U83[26][0]=((((c1T2)==(c2A31)))-(c1T29):(""));arr1xU3U83[27][0]=((((c1T2)==(c2A32)))-(c1T30):(""));arr1xU3U83[28][0]=((((c1T2)==(c2A33)))-(c1T31):(""));arr1xU3U83[29][0]=((((c1T2)==(c2A34)))-(c1T32):(""));arr1xU3U83[30][0]=((((c1T2)==(c2A35)))-(c1T33):(""));arr1xU3U83[31][0]=((((c1T2)==(c2A36)))-(c1T34):(""));arr1xU3U83[32][0]=((((c1T2)==(c2A37)))-(c1T35):(""));arr1xU3U83[33][0]=((((c1T2)==(c2A38)))-(c1T36):(""));arr1xU3U83[34][0]=((((c1T2)==(c2A39)))-(c1T37):(""));arr1xU3U83[35][0]=((((c1T2)==(c2A40)))-(c1T38):(""));arr1xU3U83[36][0]=((((c1T2)==(c2A41)))-(c1T39):(""));arr1xU3U83[37][0]=((((c1T2)==(c2A42)))-(c1T40):(""));arr1xU3U83[38][0]=((((c1T2)==(c2A43)))-(c1T41):(""));arr1xU3U83[39][0]=((((c1T2)==(c2A44)))-(c1T42):(""));arr1xU3U83[40][0]=((((c1T2)==(c2A45)))-(c1T43):(""));arr1xU3U83[41][0]=((((c1T2)==(c2A46)))-(c1T44):(""));arr1xU3U83[42][0]=((((c1T2)==(c2A47)))-(c1T45):(""));arr1xU3U83[43][0]=((((c1T2)==(c2A48)))-(c1T46):(""));arr1xU3U83[44][0]=((((c1T2)==(c2A49)))-(c1T47):(""));arr1xU3U83[45][0]=((((c1T2)==(c2A50)))-(c1T48):(""));arr1xU3U83[46][0]=((((c1T2)==(c2A51)))-(c1T49):(""));arr1xU3U83[47][0]=((((c1T2)==(c2A52)))-(c1T50):(""));arr1xU3U83[48][0]=((((c1T2)==(c2A53)))-(c1T51):(""));arr1xU3U83[49][0]=((((c1T2)==(c2A54)))-(c1T52):(""));arr1xU3U83[50][0]=((((c1T2)==(c2A55)))-(c1T53):(""));arr1xU3U83[51][0]=((((c1T2)==(c2A56)))-(c1T54):(""));arr1xU3U83[52][0]=((((c1T2)==(c2A57)))-(c1T55):(""));arr1xU3U83[53][0]=((((c1T2)==(c2A58)))-(c1T56):(""));arr1xU3U83[54][0]=((((c1T2)==(c2A59)))-(c1T57):(""));arr1xU3U83[55][0]=((((c1T2)==(c2A60)))-(c1T58):(""));arr1xU3U83[56][0]=((((c1T2)==(c2A61)))-(c1T59):(""));arr1xU3U83[57][0]=((((c1T2)==(c2A62)))-(c1T60):(""));arr1xU3U83[58][0]=((((c1T2)==(c2A63)))-(c1T61):(""));arr1xU3U83[59][0]=((((c1T2)==(c2A64)))-(c1T62):(""));arr1xU3U83[60][0]=((((c1T2)==(c2A65)))-(c1T63):(""));arr1xU3U83[61][0]=((((c1T2)==(c2A66)))-(c1T64):(""));arr1xU3U83[62][0]=((((c1T2)==(c2A67)))-(c1T65):(""));arr1xU3U83[63][0]=((((c1T2)==(c2A68)))-(c1T66):(""));arr1xU3U83[64][0]=((((c1T2)==(c2A69)))-(c1T67):(""));arr1xU3U83[65][0]=((((c1T2)==(c2A70)))-(c1T68):(""));arr1xU3U83[66][0]=((((c1T2)==(c2A71)))-(c1T69):(""));arr1xU3U83[67][0]=((((c1T2)==(c2A72)))-(c1T70):(""));arr1xU3U83[68][0]=((((c1T2)==(c2A73)))-(c1T71):(""));arr1xU3U83[69][0]=((((c1T2)==(c2A74)))-(c1T72):(""));arr1xU3U83[70][0]=((((c1T2)==(c2A75)))-(c1T73):(""));arr1xU3U83[71][0]=((((c1T2)==(c2A76)))-(c1T74):(""));arr1xU3U83[72][0]=((((c1T2)==(c2A77)))-(c1T75):(""));arr1xU3U83[73][0]=((((c1T2)==(c2A78)))-(c1T76):(""));arr1xU3U83[74][0]=((((c1T2)==(c2A79)))-(c1T77):(""));arr1xU3U83[75][0]=((((c1T2)==(c2A80)))-(c1T78):(""));arr1xU3U83[76][0]=((((c1T2)==(c2A81)))-(c1T79):(""));arr1xU3U83[77][0]=((((c1T2)==(c2A82)))-(c1T80):(""));arr1xU3U83[78][0]=((((c1T2)==(c2A83)))-(c1T81):(""));arr1xU3U83[79][0]=((((c1T2)==(c2A84)))-(c1T82):(""));arr1xU3U83[80][0]=((((c1T2)==(c2A85)))-(c1T83):(""));var sumcnt2_sum=0;var sumcnt2_cnt=0;if(eeisstring(arr1xS3S27[24][0])){if(arr1xS3S27[24][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[24][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[24][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[24][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[23][0])){if(arr1xS3S27[23][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[23][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[23][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[23][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[22][0])){if(arr1xS3S27[22][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[22][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[22][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[22][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[21][0])){if(arr1xS3S27[21][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[21][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[21][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[21][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[20][0])){if(arr1xS3S27[20][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[20][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[20][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[20][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[19][0])){if(arr1xS3S27[19][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[19][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[19][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[19][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[18][0])){if(arr1xS3S27[18][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[18][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[18][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[18][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[17][0])){if(arr1xS3S27[17][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[17][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[17][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[17][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[16][0])){if(arr1xS3S27[16][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[16][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[16][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[16][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[15][0])){if(arr1xS3S27[15][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[15][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[15][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[15][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[14][0])){if(arr1xS3S27[14][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[14][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[14][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[14][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[13][0])){if(arr1xS3S27[13][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[13][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[13][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[13][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[12][0])){if(arr1xS3S27[12][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[12][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[12][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[12][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[11][0])){if(arr1xS3S27[11][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[11][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[11][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[11][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[10][0])){if(arr1xS3S27[10][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[10][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[10][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[10][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[9][0])){if(arr1xS3S27[9][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[9][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[9][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[9][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[8][0])){if(arr1xS3S27[8][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[8][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[8][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[8][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[7][0])){if(arr1xS3S27[7][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[7][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[7][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[7][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[6][0])){if(arr1xS3S27[6][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[6][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[6][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[6][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[5][0])){if(arr1xS3S27[5][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[5][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[5][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[5][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[4][0])){if(arr1xS3S27[4][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[4][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[4][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[4][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[3][0])){if(arr1xS3S27[3][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[3][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[3][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[3][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[2][0])){if(arr1xS3S27[2][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[2][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[2][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[2][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[1][0])){if(arr1xS3S27[1][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[1][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[1][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[1][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};if(eeisstring(arr1xS3S27[0][0])){if(arr1xS3S27[0][0].length>0)sumcnt2_cnt++}else{if(isFinite(arr1xS3S27[0][0])){sumcnt2_sum=sumcnt2_sum+arr1xS3S27[0][0];sumcnt2_cnt++}else{if(isNaN(arr1xS3S27[0][0])){sumcnt2_sum=Number.NaN;sumcnt2_cnt++}else sumcnt2_cnt++}};var c1S2=(sumgeneral(0,sumcnt2_sum,sumcnt2_cnt,eecm4));var sumcnt1_sum=0;var sumcnt1_cnt=0;if(eeisstring(arr1xU3U83[80][0])){if(arr1xU3U83[80][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[80][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[80][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[80][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[79][0])){if(arr1xU3U83[79][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[79][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[79][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[79][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[78][0])){if(arr1xU3U83[78][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[78][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[78][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[78][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[77][0])){if(arr1xU3U83[77][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[77][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[77][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[77][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[76][0])){if(arr1xU3U83[76][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[76][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[76][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[76][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[75][0])){if(arr1xU3U83[75][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[75][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[75][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[75][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[74][0])){if(arr1xU3U83[74][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[74][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[74][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[74][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[73][0])){if(arr1xU3U83[73][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[73][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[73][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[73][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[72][0])){if(arr1xU3U83[72][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[72][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[72][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[72][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[71][0])){if(arr1xU3U83[71][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[71][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[71][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[71][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[70][0])){if(arr1xU3U83[70][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[70][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[70][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[70][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[69][0])){if(arr1xU3U83[69][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[69][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[69][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[69][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[68][0])){if(arr1xU3U83[68][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[68][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[68][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[68][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[67][0])){if(arr1xU3U83[67][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[67][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[67][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[67][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[66][0])){if(arr1xU3U83[66][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[66][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[66][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[66][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[65][0])){if(arr1xU3U83[65][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[65][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[65][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[65][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[64][0])){if(arr1xU3U83[64][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[64][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[64][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[64][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[63][0])){if(arr1xU3U83[63][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[63][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[63][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[63][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[62][0])){if(arr1xU3U83[62][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[62][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[62][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[62][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[61][0])){if(arr1xU3U83[61][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[61][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[61][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[61][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[60][0])){if(arr1xU3U83[60][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[60][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[60][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[60][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[59][0])){if(arr1xU3U83[59][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[59][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[59][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[59][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[58][0])){if(arr1xU3U83[58][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[58][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[58][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[58][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[57][0])){if(arr1xU3U83[57][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[57][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[57][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[57][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[56][0])){if(arr1xU3U83[56][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[56][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[56][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[56][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[55][0])){if(arr1xU3U83[55][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[55][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[55][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[55][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[54][0])){if(arr1xU3U83[54][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[54][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[54][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[54][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[53][0])){if(arr1xU3U83[53][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[53][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[53][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[53][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[52][0])){if(arr1xU3U83[52][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[52][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[52][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[52][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[51][0])){if(arr1xU3U83[51][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[51][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[51][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[51][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[50][0])){if(arr1xU3U83[50][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[50][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[50][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[50][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[49][0])){if(arr1xU3U83[49][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[49][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[49][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[49][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[48][0])){if(arr1xU3U83[48][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[48][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[48][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[48][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[47][0])){if(arr1xU3U83[47][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[47][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[47][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[47][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[46][0])){if(arr1xU3U83[46][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[46][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[46][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[46][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[45][0])){if(arr1xU3U83[45][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[45][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[45][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[45][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[44][0])){if(arr1xU3U83[44][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[44][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[44][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[44][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[43][0])){if(arr1xU3U83[43][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[43][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[43][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[43][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[42][0])){if(arr1xU3U83[42][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[42][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[42][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[42][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[41][0])){if(arr1xU3U83[41][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[41][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[41][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[41][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[40][0])){if(arr1xU3U83[40][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[40][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[40][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[40][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[39][0])){if(arr1xU3U83[39][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[39][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[39][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[39][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[38][0])){if(arr1xU3U83[38][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[38][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[38][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[38][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[37][0])){if(arr1xU3U83[37][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[37][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[37][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[37][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[36][0])){if(arr1xU3U83[36][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[36][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[36][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[36][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[35][0])){if(arr1xU3U83[35][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[35][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[35][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[35][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[34][0])){if(arr1xU3U83[34][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[34][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[34][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[34][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[33][0])){if(arr1xU3U83[33][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[33][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[33][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[33][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[32][0])){if(arr1xU3U83[32][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[32][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[32][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[32][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[31][0])){if(arr1xU3U83[31][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[31][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[31][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[31][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[30][0])){if(arr1xU3U83[30][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[30][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[30][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[30][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[29][0])){if(arr1xU3U83[29][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[29][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[29][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[29][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[28][0])){if(arr1xU3U83[28][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[28][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[28][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[28][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[27][0])){if(arr1xU3U83[27][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[27][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[27][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[27][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[26][0])){if(arr1xU3U83[26][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[26][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[26][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[26][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[25][0])){if(arr1xU3U83[25][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[25][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[25][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[25][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[24][0])){if(arr1xU3U83[24][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[24][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[24][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[24][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[23][0])){if(arr1xU3U83[23][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[23][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[23][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[23][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[22][0])){if(arr1xU3U83[22][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[22][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[22][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[22][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[21][0])){if(arr1xU3U83[21][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[21][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[21][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[21][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[20][0])){if(arr1xU3U83[20][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[20][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[20][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[20][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[19][0])){if(arr1xU3U83[19][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[19][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[19][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[19][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[18][0])){if(arr1xU3U83[18][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[18][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[18][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[18][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[17][0])){if(arr1xU3U83[17][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[17][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[17][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[17][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[16][0])){if(arr1xU3U83[16][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[16][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[16][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[16][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[15][0])){if(arr1xU3U83[15][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[15][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[15][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[15][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[14][0])){if(arr1xU3U83[14][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[14][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[14][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[14][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[13][0])){if(arr1xU3U83[13][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[13][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[13][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[13][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[12][0])){if(arr1xU3U83[12][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[12][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[12][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[12][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[11][0])){if(arr1xU3U83[11][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[11][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[11][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[11][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[10][0])){if(arr1xU3U83[10][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[10][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[10][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[10][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[9][0])){if(arr1xU3U83[9][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[9][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[9][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[9][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[8][0])){if(arr1xU3U83[8][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[8][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[8][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[8][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[7][0])){if(arr1xU3U83[7][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[7][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[7][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[7][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[6][0])){if(arr1xU3U83[6][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[6][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[6][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[6][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[5][0])){if(arr1xU3U83[5][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[5][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[5][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[5][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[4][0])){if(arr1xU3U83[4][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[4][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[4][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[4][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[3][0])){if(arr1xU3U83[3][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[3][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[3][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[3][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[2][0])){if(arr1xU3U83[2][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[2][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[2][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[2][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[1][0])){if(arr1xU3U83[1][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[1][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[1][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[1][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};if(eeisstring(arr1xU3U83[0][0])){if(arr1xU3U83[0][0].length>0)sumcnt1_cnt++}else{if(isFinite(arr1xU3U83[0][0])){sumcnt1_sum=sumcnt1_sum+arr1xU3U83[0][0];sumcnt1_cnt++}else{if(isNaN(arr1xU3U83[0][0])){sumcnt1_sum=Number.NaN;sumcnt1_cnt++}else sumcnt1_cnt++}};var c1U2=(sumgeneral(0,sumcnt1_sum,sumcnt1_cnt,eecm4));var c1X3=(c1E16);var c1Y3=(((((c1E16)*(((((c1U2)/(100)))*(Math.pow((((1)+(((c1U2)/(100))))),(c1S2)))))))/(((Math.pow((((1)+(((c1U2)/(100))))),(c1S2)))-(1)))));var c1Z3=(((c1E16)*(((c1U2)/(100)))));var c1N10=(((((c1E16)*(((c1U2)/(100)))))/(12)));var c1N12=(((((((c1N10)*(12)))*(c1S2)))+(c1E16)));var c1AA3=(((c1X3)-(((c1Y3)-(c1Z3)))));arr1xAC3AC27[0][0]=((((c1Z3)>=(0)))-(c1Z3):(0));var c1AD3=(((c1X3)-(c1Z3)));var c1Y4=(c1Y3);var c1AB3=((((c1AA3)>=(0)))-(c1AA3):(0));var c1AE3=(((c1AD3)-(c1AB3)));var c1X4=(c1AA3);var c1Z4=(((c1X4)*(((c1U2)/(100)))));var c1AA4=(((c1X4)-(((c1Y4)-(c1Z4)))));var c1Y5=(c1Y4);arr1xAF3AF27[0][0]=((((c1AE3)<(0)))-(0):(c1AE3));arr1xAG3AG27[0][0]=(((arr1xAF3AF27[0][0])+(arr1xAC3AC27[0][0])));var c1AB4=((((c1AA4)>=(0)))-(c1AA4):(0));arr1xAC3AC27[1][0]=((((c1Z4)>=(0)))-(c1Z4):(0));var c1AD4=(((c1X4)-(c1Z4)));var c1X5=(c1AA4);var c1Z5=(((c1X5)*(((c1U2)/(100)))));var c1AA5=(((c1X5)-(((c1Y5)-(c1Z5)))));var c1Y6=(c1Y5);var c1AE4=(((c1AD4)-(c1AB4)));var c1AB5=((((c1AA5)>=(0)))-(c1AA5):(0));arr1xAC3AC27[2][0]=((((c1Z5)>=(0)))-(c1Z5):(0));var c1AD5=(((c1X5)-(c1Z5)));var c1X6=(c1AA5);var c1Z6=(((c1X6)*(((c1U2)/(100)))));var c1AA6=(((c1X6)-(((c1Y6)-(c1Z6)))));var c1Y7=(c1Y6);arr1xAF3AF27[1][0]=((((c1AE4)<(0)))-(0):(c1AE4));arr1xAG3AG27[1][0]=(((arr1xAF3AF27[1][0])+(arr1xAC3AC27[1][0])));var c1AE5=(((c1AD5)-(c1AB5)));var c1AB6=((((c1AA6)>=(0)))-(c1AA6):(0));arr1xAC3AC27[3][0]=((((c1Z6)>=(0)))-(c1Z6):(0));var c1AD6=(((c1X6)-(c1Z6)));var c1X7=(c1AA6);var c1Z7=(((c1X7)*(((c1U2)/(100)))));var c1AA7=(((c1X7)-(((c1Y7)-(c1Z7)))));var c1Y8=(c1Y7);arr1xAF3AF27[2][0]=((((c1AE5)<(0)))-(0):(c1AE5));arr1xAG3AG27[2][0]=(((arr1xAF3AF27[2][0])+(arr1xAC3AC27[2][0])));var c1AE6=(((c1AD6)-(c1AB6)));var c1AB7=((((c1AA7)>=(0)))-(c1AA7):(0));arr1xAC3AC27[4][0]=((((c1Z7)>=(0)))-(c1Z7):(0));var c1AD7=(((c1X7)-(c1Z7)));var c1X8=(c1AA7);var c1Z8=(((c1X8)*(((c1U2)/(100)))));var c1AA8=(((c1X8)-(((c1Y8)-(c1Z8)))));var c1Y9=(c1Y8);arr1xAF3AF27[3][0]=((((c1AE6)<(0)))-(0):(c1AE6));arr1xAG3AG27[3][0]=(((arr1xAF3AF27[3][0])+(arr1xAC3AC27[3][0])));var c1AE7=(((c1AD7)-(c1AB7)));var c1AB8=((((c1AA8)>=(0)))-(c1AA8):(0));arr1xAC3AC27[5][0]=((((c1Z8)>=(0)))-(c1Z8):(0));var c1AD8=(((c1X8)-(c1Z8)));var c1X9=(c1AA8);var c1Z9=(((c1X9)*(((c1U2)/(100)))));var c1AA9=(((c1X9)-(((c1Y9)-(c1Z9)))));var c1Y10=(c1Y9);arr1xAF3AF27[4][0]=((((c1AE7)<(0)))-(0):(c1AE7));arr1xAG3AG27[4][0]=(((arr1xAF3AF27[4][0])+(arr1xAC3AC27[4][0])));var c1AE8=(((c1AD8)-(c1AB8)));var c1AB9=((((c1AA9)>=(0)))-(c1AA9):(0));arr1xAC3AC27[6][0]=((((c1Z9)>=(0)))-(c1Z9):(0));var c1AD9=(((c1X9)-(c1Z9)));var c1X10=(c1AA9);var c1Z10=(((c1X10)*(((c1U2)/(100)))));var c1AA10=(((c1X10)-(((c1Y10)-(c1Z10)))));var c1Y11=(c1Y10);arr1xAF3AF27[5][0]=((((c1AE8)<(0)))-(0):(c1AE8));arr1xAG3AG27[5][0]=(((arr1xAF3AF27[5][0])+(arr1xAC3AC27[5][0])));var c1AE9=(((c1AD9)-(c1AB9)));var c1AB10=((((c1AA10)>=(0)))-(c1AA10):(0));arr1xAC3AC27[7][0]=((((c1Z10)>=(0)))-(c1Z10):(0));var c1AD10=(((c1X10)-(c1Z10)));var c1X11=(c1AA10);var c1Z11=(((c1X11)*(((c1U2)/(100)))));var c1AA11=(((c1X11)-(((c1Y11)-(c1Z11)))));var c1Y12=(c1Y11);arr1xAF3AF27[6][0]=((((c1AE9)<(0)))-(0):(c1AE9));arr1xAG3AG27[6][0]=(((arr1xAF3AF27[6][0])+(arr1xAC3AC27[6][0])));var c1AE10=(((c1AD10)-(c1AB10)));var c1AB11=((((c1AA11)>=(0)))-(c1AA11):(0));arr1xAC3AC27[8][0]=((((c1Z11)>=(0)))-(c1Z11):(0));var c1AD11=(((c1X11)-(c1Z11)));var c1X12=(c1AA11);var c1Z12=(((c1X12)*(((c1U2)/(100)))));var c1AA12=(((c1X12)-(((c1Y12)-(c1Z12)))));var c1Y13=(c1Y12);arr1xAF3AF27[7][0]=((((c1AE10)<(0)))-(0):(c1AE10));arr1xAG3AG27[7][0]=(((arr1xAF3AF27[7][0])+(arr1xAC3AC27[7][0])));var c1AE11=(((c1AD11)-(c1AB11)));var c1AB12=((((c1AA12)>=(0)))-(c1AA12):(0));arr1xAC3AC27[9][0]=((((c1Z12)>=(0)))-(c1Z12):(0));var c1AD12=(((c1X12)-(c1Z12)));var c1X13=(c1AA12);var c1Z13=(((c1X13)*(((c1U2)/(100)))));var c1AA13=(((c1X13)-(((c1Y13)-(c1Z13)))));var c1Y14=(c1Y13);arr1xAF3AF27[8][0]=((((c1AE11)<(0)))-(0):(c1AE11));arr1xAG3AG27[8][0]=(((arr1xAF3AF27[8][0])+(arr1xAC3AC27[8][0])));var c1AE12=(((c1AD12)-(c1AB12)));var c1AB13=((((c1AA13)>=(0)))-(c1AA13):(0));arr1xAC3AC27[10][0]=((((c1Z13)>=(0)))-(c1Z13):(0));var c1AD13=(((c1X13)-(c1Z13)));var c1X14=(c1AA13);var c1Z14=(((c1X14)*(((c1U2)/(100)))));var c1AA14=(((c1X14)-(((c1Y14)-(c1Z14)))));var c1Y15=(c1Y14);arr1xAF3AF27[9][0]=((((c1AE12)<(0)))-(0):(c1AE12));arr1xAG3AG27[9][0]=(((arr1xAF3AF27[9][0])+(arr1xAC3AC27[9][0])));var c1AE13=(((c1AD13)-(c1AB13)));var c1AB14=((((c1AA14)>=(0)))-(c1AA14):(0));arr1xAC3AC27[11][0]=((((c1Z14)>=(0)))-(c1Z14):(0));var c1AD14=(((c1X14)-(c1Z14)));var c1X15=(c1AA14);var c1Z15=(((c1X15)*(((c1U2)/(100)))));var c1AA15=(((c1X15)-(((c1Y15)-(c1Z15)))));var c1Y16=(c1Y15);arr1xAF3AF27[10][0]=((((c1AE13)<(0)))-(0):(c1AE13));arr1xAG3AG27[10][0]=(((arr1xAF3AF27[10][0])+(arr1xAC3AC27[10][0])));var c1AE14=(((c1AD14)-(c1AB14)));var c1AB15=((((c1AA15)>=(0)))-(c1AA15):(0));arr1xAC3AC27[12][0]=((((c1Z15)>=(0)))-(c1Z15):(0));var c1AD15=(((c1X15)-(c1Z15)));var c1X16=(c1AA15);var c1Z16=(((c1X16)*(((c1U2)/(100)))));var c1AA16=(((c1X16)-(((c1Y16)-(c1Z16)))));var c1Y17=(c1Y16);arr1xAF3AF27[11][0]=((((c1AE14)<(0)))-(0):(c1AE14));arr1xAG3AG27[11][0]=(((arr1xAF3AF27[11][0])+(arr1xAC3AC27[11][0])));var c1AE15=(((c1AD15)-(c1AB15)));var c1AB16=((((c1AA16)>=(0)))-(c1AA16):(0));arr1xAC3AC27[13][0]=((((c1Z16)>=(0)))-(c1Z16):(0));var c1AD16=(((c1X16)-(c1Z16)));var c1X17=(c1AA16);var c1Z17=(((c1X17)*(((c1U2)/(100)))));var c1AA17=(((c1X17)-(((c1Y17)-(c1Z17)))));var c1Y18=(c1Y17);arr1xAF3AF27[12][0]=((((c1AE15)<(0)))-(0):(c1AE15));arr1xAG3AG27[12][0]=(((arr1xAF3AF27[12][0])+(arr1xAC3AC27[12][0])));var c1AE16=(((c1AD16)-(c1AB16)));var c1AB17=((((c1AA17)>=(0)))-(c1AA17):(0));arr1xAC3AC27[14][0]=((((c1Z17)>=(0)))-(c1Z17):(0));var c1AD17=(((c1X17)-(c1Z17)));var c1X18=(c1AA17);var c1Z18=(((c1X18)*(((c1U2)/(100)))));var c1AA18=(((c1X18)-(((c1Y18)-(c1Z18)))));var c1Y19=(c1Y18);arr1xAF3AF27[13][0]=((((c1AE16)<(0)))-(0):(c1AE16));arr1xAG3AG27[13][0]=(((arr1xAF3AF27[13][0])+(arr1xAC3AC27[13][0])));var c1AE17=(((c1AD17)-(c1AB17)));var c1AB18=((((c1AA18)>=(0)))-(c1AA18):(0));arr1xAC3AC27[15][0]=((((c1Z18)>=(0)))-(c1Z18):(0));var c1AD18=(((c1X18)-(c1Z18)));var c1X19=(c1AA18);var c1Z19=(((c1X19)*(((c1U2)/(100)))));var c1AA19=(((c1X19)-(((c1Y19)-(c1Z19)))));var c1Y20=(c1Y19);arr1xAF3AF27[14][0]=((((c1AE17)<(0)))-(0):(c1AE17));arr1xAG3AG27[14][0]=(((arr1xAF3AF27[14][0])+(arr1xAC3AC27[14][0])));var c1AE18=(((c1AD18)-(c1AB18)));var c1AB19=((((c1AA19)>=(0)))-(c1AA19):(0));arr1xAC3AC27[16][0]=((((c1Z19)>=(0)))-(c1Z19):(0));var c1AD19=(((c1X19)-(c1Z19)));var c1X20=(c1AA19);var c1Z20=(((c1X20)*(((c1U2)/(100)))));var c1AA20=(((c1X20)-(((c1Y20)-(c1Z20)))));var c1Y21=(c1Y20);arr1xAF3AF27[15][0]=((((c1AE18)<(0)))-(0):(c1AE18));arr1xAG3AG27[15][0]=(((arr1xAF3AF27[15][0])+(arr1xAC3AC27[15][0])));var c1AE19=(((c1AD19)-(c1AB19)));var c1AB20=((((c1AA20)>=(0)))-(c1AA20):(0));arr1xAC3AC27[17][0]=((((c1Z20)>=(0)))-(c1Z20):(0));var c1AD20=(((c1X20)-(c1Z20)));var c1X21=(c1AA20);var c1Z21=(((c1X21)*(((c1U2)/(100)))));var c1AA21=(((c1X21)-(((c1Y21)-(c1Z21)))));var c1Y22=(c1Y21);arr1xAF3AF27[16][0]=((((c1AE19)<(0)))-(0):(c1AE19));arr1xAG3AG27[16][0]=(((arr1xAF3AF27[16][0])+(arr1xAC3AC27[16][0])));var c1AE20=(((c1AD20)-(c1AB20)));var c1AB21=((((c1AA21)>=(0)))-(c1AA21):(0));arr1xAC3AC27[18][0]=((((c1Z21)>=(0)))-(c1Z21):(0));var c1AD21=(((c1X21)-(c1Z21)));var c1X22=(c1AA21);var c1Z22=(((c1X22)*(((c1U2)/(100)))));var c1AA22=(((c1X22)-(((c1Y22)-(c1Z22)))));var c1Y23=(c1Y22);arr1xAF3AF27[17][0]=((((c1AE20)<(0)))-(0):(c1AE20));arr1xAG3AG27[17][0]=(((arr1xAF3AF27[17][0])+(arr1xAC3AC27[17][0])));var c1AE21=(((c1AD21)-(c1AB21)));var c1AB22=((((c1AA22)>=(0)))-(c1AA22):(0));arr1xAC3AC27[19][0]=((((c1Z22)>=(0)))-(c1Z22):(0));var c1AD22=(((c1X22)-(c1Z22)));var c1X23=(c1AA22);var c1Z23=(((c1X23)*(((c1U2)/(100)))));var c1AA23=(((c1X23)-(((c1Y23)-(c1Z23)))));var c1Y24=(c1Y23);arr1xAF3AF27[18][0]=((((c1AE21)<(0)))-(0):(c1AE21));arr1xAG3AG27[18][0]=(((arr1xAF3AF27[18][0])+(arr1xAC3AC27[18][0])));var c1AE22=(((c1AD22)-(c1AB22)));var c1AB23=((((c1AA23)>=(0)))-(c1AA23):(0));arr1xAC3AC27[20][0]=((((c1Z23)>=(0)))-(c1Z23):(0));var c1AD23=(((c1X23)-(c1Z23)));var c1X24=(c1AA23);var c1Z24=(((c1X24)*(((c1U2)/(100)))));var c1AA24=(((c1X24)-(((c1Y24)-(c1Z24)))));var c1Y25=(c1Y24);arr1xAF3AF27[19][0]=((((c1AE22)<(0)))-(0):(c1AE22));arr1xAG3AG27[19][0]=(((arr1xAF3AF27[19][0])+(arr1xAC3AC27[19][0])));var c1AE23=(((c1AD23)-(c1AB23)));var c1AB24=((((c1AA24)>=(0)))-(c1AA24):(0));arr1xAC3AC27[21][0]=((((c1Z24)>=(0)))-(c1Z24):(0));var c1AD24=(((c1X24)-(c1Z24)));var c1X25=(c1AA24);var c1Z25=(((c1X25)*(((c1U2)/(100)))));var c1AA25=(((c1X25)-(((c1Y25)-(c1Z25)))));var c1Y26=(c1Y25);arr1xAF3AF27[20][0]=((((c1AE23)<(0)))-(0):(c1AE23));arr1xAG3AG27[20][0]=(((arr1xAF3AF27[20][0])+(arr1xAC3AC27[20][0])));var c1AE24=(((c1AD24)-(c1AB24)));var c1AB25=((((c1AA25)>=(0)))-(c1AA25):(0));arr1xAC3AC27[22][0]=((((c1Z25)>=(0)))-(c1Z25):(0));var c1AD25=(((c1X25)-(c1Z25)));var c1X26=(c1AA25);var c1Z26=(((c1X26)*(((c1U2)/(100)))));var c1AA26=(((c1X26)-(((c1Y26)-(c1Z26)))));var c1Y27=(c1Y26);arr1xAF3AF27[21][0]=((((c1AE24)<(0)))-(0):(c1AE24));arr1xAG3AG27[21][0]=(((arr1xAF3AF27[21][0])+(arr1xAC3AC27[21][0])));var c1AE25=(((c1AD25)-(c1AB25)));var c1AB26=((((c1AA26)>=(0)))-(c1AA26):(0));arr1xAC3AC27[23][0]=((((c1Z26)>=(0)))-(c1Z26):(0));var c1AD26=(((c1X26)-(c1Z26)));var c1X27=(c1AA26);var c1Z27=(((c1X27)*(((c1U2)/(100)))));var c1AA27=(((c1X27)-(((c1Y27)-(c1Z27)))));arr1xAF3AF27[22][0]=((((c1AE25)<(0)))-(0):(c1AE25));arr1xAG3AG27[22][0]=(((arr1xAF3AF27[22][0])+(arr1xAC3AC27[22][0])));var c1AE26=(((c1AD26)-(c1AB26)));var c1AB27=((((c1AA27)>=(0)))-(c1AA27):(0));arr1xAC3AC27[24][0]=((((c1Z27)>=(0)))-(c1Z27):(0));var c1AD27=(((c1X27)-(c1Z27)));var c1AC28=(sumgeneral(25,0,0,eecm3));var c1AC29=(((c1AC28)+(c1E16)));var c1K12=(c1AC29);arr1xAF3AF27[23][0]=((((c1AE26)<(0)))-(0):(c1AE26));arr1xAG3AG27[23][0]=(((arr1xAF3AF27[23][0])+(arr1xAC3AC27[23][0])));var c1AE27=(((c1AD27)-(c1AB27)));var c1K10=(((((c1K12)/(c1S2)))/(12)));arr1xAF3AF27[24][0]=((((c1AE27)<(0)))-(0):(c1AE27));arr1xAG3AG27[24][0]=(((arr1xAF3AF27[24][0])+(arr1xAC3AC27[24][0])));var c1AF28=(sumgeneral(25,0,0,eecm2));var c1AG28=(sumgeneral(25,0,0,eecm1));var c1AG29=(((((c1AG28)/(c1S2)))/(12)));data.p1S2=c1S2;data.p1U2=c1U2;data.p1S3=arr1xS3S27[0][0];data.p1U3=arr1xU3U83[0][0];data.p1X3=c1X3;data.p1Y3=c1Y3;data.p1Z3=c1Z3;data.p1AA3=c1AA3;data.p1AB3=c1AB3;data.p1AC3=arr1xAC3AC27[0][0];data.p1AD3=c1AD3;data.p1AE3=c1AE3;data.p1AF3=arr1xAF3AF27[0][0];data.p1AG3=arr1xAG3AG27[0][0];data.p1S4=arr1xS3S27[1][0];data.p1U4=arr1xU3U83[1][0];data.p1X4=c1X4;data.p1Y4=c1Y4;data.p1Z4=c1Z4;data.p1AA4=c1AA4;data.p1AB4=c1AB4;data.p1AC4=arr1xAC3AC27[1][0];data.p1AD4=c1AD4;data.p1AE4=c1AE4;data.p1AF4=arr1xAF3AF27[1][0];data.p1AG4=arr1xAG3AG27[1][0];data.p1S5=arr1xS3S27[2][0];data.p1U5=arr1xU3U83[2][0];data.p1X5=c1X5;data.p1Y5=c1Y5;data.p1Z5=c1Z5;data.p1AA5=c1AA5;data.p1AB5=c1AB5;data.p1AC5=arr1xAC3AC27[2][0];data.p1AD5=c1AD5;data.p1AE5=c1AE5;data.p1AF5=arr1xAF3AF27[2][0];data.p1AG5=arr1xAG3AG27[2][0];data.p1S6=arr1xS3S27[3][0];data.p1U6=arr1xU3U83[3][0];data.p1X6=c1X6;data.p1Y6=c1Y6;data.p1Z6=c1Z6;data.p1AA6=c1AA6;data.p1AB6=c1AB6;data.p1AC6=arr1xAC3AC27[3][0];data.p1AD6=c1AD6;data.p1AE6=c1AE6;data.p1AF6=arr1xAF3AF27[3][0];data.p1AG6=arr1xAG3AG27[3][0];data.p1S7=arr1xS3S27[4][0];data.p1U7=arr1xU3U83[4][0];data.p1X7=c1X7;data.p1Y7=c1Y7;data.p1Z7=c1Z7;data.p1AA7=c1AA7;data.p1AB7=c1AB7;data.p1AC7=arr1xAC3AC27[4][0];data.p1AD7=c1AD7;data.p1AE7=c1AE7;data.p1AF7=arr1xAF3AF27[4][0];data.p1AG7=arr1xAG3AG27[4][0];data.p1S8=arr1xS3S27[5][0];data.p1U8=arr1xU3U83[5][0];data.p1X8=c1X8;data.p1Y8=c1Y8;data.p1Z8=c1Z8;data.p1AA8=c1AA8;data.p1AB8=c1AB8;data.p1AC8=arr1xAC3AC27[5][0];data.p1AD8=c1AD8;data.p1AE8=c1AE8;data.p1AF8=arr1xAF3AF27[5][0];data.p1AG8=arr1xAG3AG27[5][0];data.p1E9=c1E9;data.p1S9=arr1xS3S27[6][0];data.p1U9=arr1xU3U83[6][0];data.p1X9=c1X9;data.p1Y9=c1Y9;data.p1Z9=c1Z9;data.p1AA9=c1AA9;data.p1AB9=c1AB9;data.p1AC9=arr1xAC3AC27[6][0];data.p1AD9=c1AD9;data.p1AE9=c1AE9;data.p1AF9=arr1xAF3AF27[6][0];data.p1AG9=arr1xAG3AG27[6][0];data.p1K10=c1K10;data.p1N10=c1N10;data.p1S10=arr1xS3S27[7][0];data.p1U10=arr1xU3U83[7][0];data.p1X10=c1X10;data.p1Y10=c1Y10;data.p1Z10=c1Z10;data.p1AA10=c1AA10;data.p1AB10=c1AB10;data.p1AC10=arr1xAC3AC27[7][0];data.p1AD10=c1AD10;data.p1AE10=c1AE10;data.p1AF10=arr1xAF3AF27[7][0];data.p1AG10=arr1xAG3AG27[7][0];data.p1S11=arr1xS3S27[8][0];data.p1U11=arr1xU3U83[8][0];data.p1X11=c1X11;data.p1Y11=c1Y11;data.p1Z11=c1Z11;data.p1AA11=c1AA11;data.p1AB11=c1AB11;data.p1AC11=arr1xAC3AC27[8][0];data.p1AD11=c1AD11;data.p1AE11=c1AE11;data.p1AF11=arr1xAF3AF27[8][0];data.p1AG11=arr1xAG3AG27[8][0];data.p1K12=c1K12;data.p1N12=c1N12;data.p1S12=arr1xS3S27[9][0];data.p1U12=arr1xU3U83[9][0];data.p1X12=c1X12;data.p1Y12=c1Y12;data.p1Z12=c1Z12;data.p1AA12=c1AA12;data.p1AB12=c1AB12;data.p1AC12=arr1xAC3AC27[9][0];data.p1AD12=c1AD12;data.p1AE12=c1AE12;data.p1AF12=arr1xAF3AF27[9][0];data.p1AG12=arr1xAG3AG27[9][0];data.p1S13=arr1xS3S27[10][0];data.p1U13=arr1xU3U83[10][0];data.p1X13=c1X13;data.p1Y13=c1Y13;data.p1Z13=c1Z13;data.p1AA13=c1AA13;data.p1AB13=c1AB13;data.p1AC13=arr1xAC3AC27[10][0];data.p1AD13=c1AD13;data.p1AE13=c1AE13;data.p1AF13=arr1xAF3AF27[10][0];data.p1AG13=arr1xAG3AG27[10][0];data.p1S14=arr1xS3S27[11][0];data.p1U14=arr1xU3U83[11][0];data.p1X14=c1X14;data.p1Y14=c1Y14;data.p1Z14=c1Z14;data.p1AA14=c1AA14;data.p1AB14=c1AB14;data.p1AC14=arr1xAC3AC27[11][0];data.p1AD14=c1AD14;data.p1AE14=c1AE14;data.p1AF14=arr1xAF3AF27[11][0];data.p1AG14=arr1xAG3AG27[11][0];data.p1E15=c1E15;data.p1S15=arr1xS3S27[12][0];data.p1U15=arr1xU3U83[12][0];data.p1X15=c1X15;data.p1Y15=c1Y15;data.p1Z15=c1Z15;data.p1AA15=c1AA15;data.p1AB15=c1AB15;data.p1AC15=arr1xAC3AC27[12][0];data.p1AD15=c1AD15;data.p1AE15=c1AE15;data.p1AF15=arr1xAF3AF27[12][0];data.p1AG15=arr1xAG3AG27[12][0];data.p1E16=c1E16;data.p1S16=arr1xS3S27[13][0];data.p1U16=arr1xU3U83[13][0];data.p1X16=c1X16;data.p1Y16=c1Y16;data.p1Z16=c1Z16;data.p1AA16=c1AA16;data.p1AB16=c1AB16;data.p1AC16=arr1xAC3AC27[13][0];data.p1AD16=c1AD16;data.p1AE16=c1AE16;data.p1AF16=arr1xAF3AF27[13][0];data.p1AG16=arr1xAG3AG27[13][0];data.p1S17=arr1xS3S27[14][0];data.p1U17=arr1xU3U83[14][0];data.p1X17=c1X17;data.p1Y17=c1Y17;data.p1Z17=c1Z17;data.p1AA17=c1AA17;data.p1AB17=c1AB17;data.p1AC17=arr1xAC3AC27[14][0];data.p1AD17=c1AD17;data.p1AE17=c1AE17;data.p1AF17=arr1xAF3AF27[14][0];data.p1AG17=arr1xAG3AG27[14][0];data.p1S18=arr1xS3S27[15][0];data.p1U18=arr1xU3U83[15][0];data.p1X18=c1X18;data.p1Y18=c1Y18;data.p1Z18=c1Z18;data.p1AA18=c1AA18;data.p1AB18=c1AB18;data.p1AC18=arr1xAC3AC27[15][0];data.p1AD18=c1AD18;data.p1AE18=c1AE18;data.p1AF18=arr1xAF3AF27[15][0];data.p1AG18=arr1xAG3AG27[15][0];data.p1S19=arr1xS3S27[16][0];data.p1U19=arr1xU3U83[16][0];data.p1X19=c1X19;data.p1Y19=c1Y19;data.p1Z19=c1Z19;data.p1AA19=c1AA19;data.p1AB19=c1AB19;data.p1AC19=arr1xAC3AC27[16][0];data.p1AD19=c1AD19;data.p1AE19=c1AE19;data.p1AF19=arr1xAF3AF27[16][0];data.p1AG19=arr1xAG3AG27[16][0];data.p1S20=arr1xS3S27[17][0];data.p1U20=arr1xU3U83[17][0];data.p1X20=c1X20;data.p1Y20=c1Y20;data.p1Z20=c1Z20;data.p1AA20=c1AA20;data.p1AB20=c1AB20;data.p1AC20=arr1xAC3AC27[17][0];data.p1AD20=c1AD20;data.p1AE20=c1AE20;data.p1AF20=arr1xAF3AF27[17][0];data.p1AG20=arr1xAG3AG27[17][0];data.p1S21=arr1xS3S27[18][0];data.p1U21=arr1xU3U83[18][0];data.p1X21=c1X21;data.p1Y21=c1Y21;data.p1Z21=c1Z21;data.p1AA21=c1AA21;data.p1AB21=c1AB21;data.p1AC21=arr1xAC3AC27[18][0];data.p1AD21=c1AD21;data.p1AE21=c1AE21;data.p1AF21=arr1xAF3AF27[18][0];data.p1AG21=arr1xAG3AG27[18][0];data.p1S22=arr1xS3S27[19][0];data.p1U22=arr1xU3U83[19][0];data.p1X22=c1X22;data.p1Y22=c1Y22;data.p1Z22=c1Z22;data.p1AA22=c1AA22;data.p1AB22=c1AB22;data.p1AC22=arr1xAC3AC27[19][0];data.p1AD22=c1AD22;data.p1AE22=c1AE22;data.p1AF22=arr1xAF3AF27[19][0];data.p1AG22=arr1xAG3AG27[19][0];data.p1S23=arr1xS3S27[20][0];data.p1U23=arr1xU3U83[20][0];data.p1X23=c1X23;data.p1Y23=c1Y23;data.p1Z23=c1Z23;data.p1AA23=c1AA23;data.p1AB23=c1AB23;data.p1AC23=arr1xAC3AC27[20][0];data.p1AD23=c1AD23;data.p1AE23=c1AE23;data.p1AF23=arr1xAF3AF27[20][0];data.p1AG23=arr1xAG3AG27[20][0];data.p1S24=arr1xS3S27[21][0];data.p1U24=arr1xU3U83[21][0];data.p1X24=c1X24;data.p1Y24=c1Y24;data.p1Z24=c1Z24;data.p1AA24=c1AA24;data.p1AB24=c1AB24;data.p1AC24=arr1xAC3AC27[21][0];data.p1AD24=c1AD24;data.p1AE24=c1AE24;data.p1AF24=arr1xAF3AF27[21][0];data.p1AG24=arr1xAG3AG27[21][0];data.p1S25=arr1xS3S27[22][0];data.p1U25=arr1xU3U83[22][0];data.p1X25=c1X25;data.p1Y25=c1Y25;data.p1Z25=c1Z25;data.p1AA25=c1AA25;data.p1AB25=c1AB25;data.p1AC25=arr1xAC3AC27[22][0];data.p1AD25=c1AD25;data.p1AE25=c1AE25;data.p1AF25=arr1xAF3AF27[22][0];data.p1AG25=arr1xAG3AG27[22][0];data.p1S26=arr1xS3S27[23][0];data.p1U26=arr1xU3U83[23][0];data.p1X26=c1X26;data.p1Y26=c1Y26;data.p1Z26=c1Z26;data.p1AA26=c1AA26;data.p1AB26=c1AB26;data.p1AC26=arr1xAC3AC27[23][0];data.p1AD26=c1AD26;data.p1AE26=c1AE26;data.p1AF26=arr1xAF3AF27[23][0];data.p1AG26=arr1xAG3AG27[23][0];data.p1S27=arr1xS3S27[24][0];data.p1U27=arr1xU3U83[24][0];data.p1X27=c1X27;data.p1Y27=c1Y27;data.p1Z27=c1Z27;data.p1AA27=c1AA27;data.p1AB27=c1AB27;data.p1AC27=arr1xAC3AC27[24][0];data.p1AD27=c1AD27;data.p1AE27=c1AE27;data.p1AF27=arr1xAF3AF27[24][0];data.p1AG27=arr1xAG3AG27[24][0];data.p1U28=arr1xU3U83[25][0];data.p1AC28=c1AC28;data.p1AF28=c1AF28;data.p1AG28=c1AG28;data.p1U29=arr1xU3U83[26][0];data.p1AC29=c1AC29;data.p1AG29=c1AG29;data.p1U30=arr1xU3U83[27][0];data.p1U31=arr1xU3U83[28][0];data.p1U32=arr1xU3U83[29][0];data.p1U33=arr1xU3U83[30][0];data.p1U34=arr1xU3U83[31][0];data.p1U35=arr1xU3U83[32][0];data.p1U36=arr1xU3U83[33][0];data.p1U37=arr1xU3U83[34][0];data.p1U38=arr1xU3U83[35][0];data.p1U39=arr1xU3U83[36][0];data.p1U40=arr1xU3U83[37][0];data.p1U41=arr1xU3U83[38][0];data.p1U42=arr1xU3U83[39][0];data.p1U43=arr1xU3U83[40][0];data.p1U44=arr1xU3U83[41][0];data.p1U45=arr1xU3U83[42][0];data.p1U46=arr1xU3U83[43][0];data.p1U47=arr1xU3U83[44][0];data.p1U48=arr1xU3U83[45][0];data.p1U49=arr1xU3U83[46][0];data.p1U50=arr1xU3U83[47][0];data.p1U51=arr1xU3U83[48][0];data.p1U52=arr1xU3U83[49][0];data.p1U53=arr1xU3U83[50][0];data.p1U54=arr1xU3U83[51][0];data.p1U55=arr1xU3U83[52][0];data.p1U56=arr1xU3U83[53][0];data.p1U57=arr1xU3U83[54][0];data.p1U58=arr1xU3U83[55][0];data.p1U59=arr1xU3U83[56][0];data.p1U60=arr1xU3U83[57][0];data.p1U61=arr1xU3U83[58][0];data.p1U62=arr1xU3U83[59][0];data.p1U63=arr1xU3U83[60][0];data.p1U64=arr1xU3U83[61][0];data.p1U65=arr1xU3U83[62][0];data.p1U66=arr1xU3U83[63][0];data.p1U67=arr1xU3U83[64][0];data.p1U68=arr1xU3U83[65][0];data.p1U69=arr1xU3U83[66][0];data.p1U70=arr1xU3U83[67][0];data.p1U71=arr1xU3U83[68][0];data.p1U72=arr1xU3U83[69][0];data.p1U73=arr1xU3U83[70][0];data.p1U74=arr1xU3U83[71][0];data.p1U75=arr1xU3U83[72][0];data.p1U76=arr1xU3U83[73][0];data.p1U77=arr1xU3U83[74][0];data.p1U78=arr1xU3U83[75][0];data.p1U79=arr1xU3U83[76][0];data.p1U80=arr1xU3U83[77][0];data.p1U81=arr1xU3U83[78][0];data.p1U82=arr1xU3U83[79][0];data.p1U83=arr1xU3U83[80][0];};</script><script language="javascript">
+function myIsNaN(x){return(isNaN(x)||(typeof x=='number'&&!isFinite(x)));};function round(n,nd){if(isFinite(n)&&isFinite(nd)){var sign_n=(n<0)--1:1;var abs_n=Math.abs(n);var factor=Math.pow(10,nd);return sign_n*Math.round(abs_n*factor)/factor;}else{return NaN;}};function sum2(arr,rt,rb){var sum=0;for(var ii=rt;ii<=rb;ii++){sum+=arr[ii]};return sum};function sum3(arr,rt,ct,rb,cb){var sum=0;for(var ii=rt;ii<=rb;ii++){for(var jj=ct;jj<=cb;jj++){sum+=arr[ii][jj]}};return sum};function sumgeneral(cnt,vsum,vcnt,x){var sum=vsum;for(var ii=0;ii<x.length;ii++){sum+=sum3(x[ii][0],x[ii][1],x[ii][2],x[ii][3],x[ii][4]);};return sum;};function eeparseFloat(str){str=String(str).replace(eedecreg,".");var res=parseFloat(str);if(isNaN(res)){return 0;}else{return res;};};function eedisplayFloat(x){if(myIsNaN(x)){return Number.NaN;}else{return String(x).replace(/\./g,eedec);};};function eedisplayFloatND(x,nd){if(myIsNaN(x)){return Number.NaN;}else{var res=round(x,nd);if(nd>0){var parts=String(res).split('.');if(parts.length<2){var decimals=('00000000000000').substring(0,nd);return(parts[0]).toString()+eedec+decimals;}else{var decimals=((parts[1]).toString()+'00000000000000').substring(0,nd);return(parts[0]).toString()+eedec+decimals;}}else{return res;};};};function eedisplayPercentND(x,nd){if(myIsNaN(x)){return Number.NaN;}else{return eedisplayFloatND(x*100,nd)+'%';};}function eeparseFloatTh(str){str=String(str).replace(eethreg,"");str=String(str).replace(eedecreg,".");var res=parseFloat(str);if(isNaN(res)){return 0;}else{return res;};};function eedisplayFloatNDTh(x,nd){if(myIsNaN(x)){return Number.NaN;}else{var res=round(x,nd);if(nd>0){var parts=String(res).split('.');var res2=eeinsertThousand(parts[0].toString());if(parts.length<2){var decimals=('00000000000000').substring(0,nd);return(res2+eedec+decimals);}else{var decimals=((parts[1]).toString()+'00000000000000').substring(0,nd);return(res2+eedec+decimals);}}else{return(eeinsertThousand(res.toString()));};};};function eeinsertThousand(whole){if(whole==""||whole.indexOf("e")>=0){return whole;}else{var minus_sign="";if(whole.charAt(0)=="-"){minus_sign="-";whole=whole.substring(1);};var res="";var str_length=whole.length-1;for(ii=0;ii<=str_length;ii++){if(ii>0&&ii%3==0){res=eeth+res;};res=whole.charAt(str_length-ii)+res;};return minus_sign+res;}};function eeisstring(v){switch(typeof v){case "string":return true;case "object":return v.constructor==String;default:return false;};};function eeisnumber(v){if(isNaN(v)||v==Number.NEGATIVE_INFINITY||v==Number.POSITIVE_INFINITY){return false;}else{switch(typeof v){case "number":return true;case "object":return v.constructor==Number;default:return false;};};};</script>
+<!-- Header end -->
+</head><body>
+<!-- Body start -->
+
+   <form name="formc" method="post" action="">
+
+     <table  width="1801" style='border-collapse:collapse;width:1351pt'  border="0" cellspacing="0" cellpadding="2" bgcolor="#FFFFFF">
+	       <tr> 
+			   <td  height="18" width="15" style='height:14pt;width:12pt;'   class=ee100    >
+			     &nbsp; 
+			   </td>
+			   <td   width="9" style='width:7pt;'   class=ee101    >
+			     &nbsp; 
+			   </td>
+			   <td   width="249" style='width:187pt;'   class=ee101    >
+			     &nbsp; 
+			   </td>
+			   <td   width="19" style='width:14pt;'   class=ee101    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee102   colspan=5 >
+			Mortgage Calculator
+			   </td>
+			   <td   width="14" style='width:10pt;'   align=center class=ee105    >
+			     &nbsp; 
+			   </td>
+			   <td   width="71" style='width:54pt;'   align=center class=ee105    >
+			     &nbsp; 
+			   </td>
+			   <td   width="10" style='width:7pt;'   align=center class=ee105    >
+			     &nbsp; 
+			   </td>
+			   <td   width="12" style='width:9pt;'   align=center class=ee105    >
+			     &nbsp; 
+			   </td>
+			   <td   width="81" style='width:61pt;'   align=center class=ee105    >
+			     &nbsp; 
+			   </td>
+			   <td   width="22" style='width:16pt;'   class=ee100    >
+			     &nbsp; 
+			   </td>
+			   <td   width="64" style='width:48pt;'   align=center class=ee106    >
+			     &nbsp; 
+			   </td>
+			   <td   width="40" style='width:30pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="103" style='width:78pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="40" style='width:30pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="103" style='width:78pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="40" style='width:30pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="64" style='width:48pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="64" style='width:48pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="64" style='width:48pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="64" style='width:48pt;'   class=ee108    >
+			     &nbsp; 
+			   </td>
+			   <td   width="64" style='width:48pt;'   class=ee108    >
+			     &nbsp; 
+			   </td>
+			   <td   width="63" style='width:47pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="72" style='width:54pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="64" style='width:48pt;'   align=center class=ee109    >
+			interest
+			   </td>
+			   <td   width="64" style='width:48pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="64" style='width:48pt;'   align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td   width="64" style='width:48pt;'   align=center class=ee109    >
+			total
+			   </td>
+			   <td   width="64" style='width:48pt;'   align=center class=ee107    >
+			total
+			   </td>
+	       </tr>
+	       <tr> 
+			   <td  height="6"  style='height:5pt;'   class=ee100    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td   width="72" style='width:54pt;'   class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td   width="7" style='width:6pt;'   class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td   width="16" style='width:12pt;'      >
+			     &nbsp; 
+			   </td>
+			   <td   width="11" style='width:8pt;'      >
+			     &nbsp; 
+			   </td>
+			   <td   width="180" style='width:135pt;'      >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee109    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee109    >
+			     <input name="p1S2" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee109 >
+			   </td>
+			   <td    align=center class=ee109    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee109    >
+			     <input name="p1U2" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee109 >
+			   </td>
+			   <td    align=center class=ee109    >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			MORTGAGE
+			   </td>
+			   <td    class=ee108    >
+			FIDDLE NO.
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			balance
+			   </td>
+			   <td    align=center class=ee107    >
+			BALANCE
+			   </td>
+			   <td    align=center class=ee107    >
+			repayments
+			   </td>
+			   <td    align=center class=ee107    >
+			calc
+			   </td>
+			   <td    align=center class=ee107    >
+			calc
+			   </td>
+			   <td    align=center class=ee107    >
+			capital
+			   </td>
+			   <td    align=center class=ee107    >
+			payments
+			   </td>
+	       </tr>
+	       <tr> 
+			   <td  height="18"  style='height:14pt;'   class=ee112    >
+			&nbsp;
+			   </td>
+			   <td    class=ee113   colspan=2 >
+			    How Much Can You Afford- 
+			   </td>
+			   <td    align=right class=ee115    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee100   colspan=6 >
+			Enter your choices and &#39;TAB&#39; to scroll between options
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1S3" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1U3" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			1
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1X3" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee118    >
+			     <input name="p1Y3" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee118 >
+			   </td>
+			   <td    align=center class=ee119    >
+			     <input name="p1Z3" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee119 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AA3" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:47pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AB3" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:54pt' size="10"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AC3" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AD3" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AE3" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AF3" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AG3" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+	       </tr>
+	       <tr> 
+			   <td  height="18"  style='height:14pt;'   class=ee112    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=right class=ee120    >
+			Type of Mortgage Application
+			   </td>
+			   <td    align=right class=ee115    >
+			&nbsp;
+			   </td>
+			   <td    class=ee100    >
+    <select name="p1V2" size="1" onchange="recalc_onclick('p1V2')" tabindex="1"  class=ee100  style='width:54pt'>
+       <option value="1" >Single</option>
+       <option value="2" >Couple</option>
+    </select>
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1S4" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1U4" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			2
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1X4" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee118    >
+			     <input name="p1Y4" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee118 >
+			   </td>
+			   <td    align=center class=ee119    >
+			     <input name="p1Z4" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee119 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AA4" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:47pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AB4" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:54pt' size="10"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AC4" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AD4" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AE4" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AF4" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AG4" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+	       </tr>
+	       <tr> 
+			   <td  height="18"  style='height:14pt;'   class=ee112    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=right class=ee120    >
+			1st Salary
+			   </td>
+			   <td    align=right class=ee115    >
+			£
+			   </td>
+			   <td    class=ee100    >
+			     <input name="p1E5" type="text" value="25,000"
+			      onblur="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('p1E5')" tabindex="2"
+			      style='width:54pt' size="10"
+	    class=ee100 >
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td    class=ee121    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee113   colspan=4 >
+			   Mortgage Repayment Profiles 
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1S5" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1U5" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			3
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1X5" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee118    >
+			     <input name="p1Y5" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee118 >
+			   </td>
+			   <td    align=center class=ee119    >
+			     <input name="p1Z5" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee119 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AA5" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:47pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AB5" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:54pt' size="10"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AC5" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AD5" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AE5" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AF5" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AG5" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+	       </tr>
+	       <tr> 
+			   <td  height="18"  style='height:14pt;'   class=ee112    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=right class=ee120    >
+			2nd Salary
+			   </td>
+			   <td    align=right class=ee115    >
+			£
+			   </td>
+			   <td    class=ee100    >
+			     <input name="p1E6" type="text" value="20,000"
+			      onblur="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('p1E6')" tabindex="3"
+			      style='width:54pt' size="10"
+	    class=ee100 >
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td    class=ee121    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee124    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1S6" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1U6" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			4
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1X6" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee118    >
+			     <input name="p1Y6" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee118 >
+			   </td>
+			   <td    align=center class=ee119    >
+			     <input name="p1Z6" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee119 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AA6" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:47pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AB6" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:54pt' size="10"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AC6" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AD6" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AE6" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AF6" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AG6" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+	       </tr>
+	       <tr> 
+			   <td  height="18"  style='height:14pt;'   class=ee112    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=right class=ee120    >
+			Income Multiple: Single
+			   </td>
+			   <td    align=right class=ee115    >
+			&nbsp;
+			   </td>
+			   <td    class=ee100    >
+			     <input name="p1E7" type="text" value="2.5"
+			      onblur="this.value=eedisplayFloat(eeparseFloat(this.value));recalc_onclick('p1E7')" tabindex="4"
+			      style='width:54pt' size="10"
+	    class=ee100 >
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td    class=ee121    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee125    >
+			Repayment
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee126    >
+			Interest Only
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1S7" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1U7" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			5
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1X7" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee118    >
+			     <input name="p1Y7" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee118 >
+			   </td>
+			   <td    align=center class=ee119    >
+			     <input name="p1Z7" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee119 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AA7" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:47pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AB7" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:54pt' size="10"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AC7" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AD7" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AE7" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AF7" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AG7" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+	       </tr>
+	       <tr> 
+			   <td  height="18"  style='height:14pt;'   class=ee112    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=right class=ee120    >
+			Income Multiple: Couple
+			   </td>
+			   <td    align=right class=ee115    >
+			&nbsp;
+			   </td>
+			   <td    class=ee100    >
+			     <input name="p1E8" type="text" value="3.5"
+			      onblur="this.value=eedisplayFloat(eeparseFloat(this.value));recalc_onclick('p1E8')" tabindex="5"
+			      style='width:54pt' size="10"
+	    class=ee100 >
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td    class=ee121    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee125    >
+			Mortgage £
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee127   colspan=3 >
+			Mortgage £  (1)
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1S8" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1U8" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			6
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1X8" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee118    >
+			     <input name="p1Y8" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee118 >
+			   </td>
+			   <td    align=center class=ee119    >
+			     <input name="p1Z8" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee119 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AA8" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:47pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AB8" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:54pt' size="10"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AC8" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AD8" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AE8" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AF8" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AG8" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+	       </tr>
+	       <tr> 
+			   <td  height="18"  style='height:14pt;'   class=ee112    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=right class=ee120    >
+			Maximum Borrowing
+			   </td>
+			   <td    align=right class=ee128    >
+			£
+			   </td>
+			   <td    class=ee129    >
+			     <input name="p1E9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:54pt' size="10"
+	    class=ee129 >
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td    class=ee121    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee130    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee123    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee131    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee131    >
+			&nbsp;
+			   </td>
+			   <td    class=ee117    >
+			&nbsp;
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1S9" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1U9" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			7
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1X9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee118    >
+			     <input name="p1Y9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee118 >
+			   </td>
+			   <td    align=center class=ee119    >
+			     <input name="p1Z9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee119 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AA9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:47pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AB9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:54pt' size="10"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AC9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AD9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AE9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AF9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AG9" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+	       </tr>
+	       <tr> 
+			   <td  height="18"  style='height:14pt;'   class=ee112    >
+			&nbsp;
+			   </td>
+			   <td    class=ee132    >
+			&nbsp;
+			   </td>
+			   <td    align=right class=ee133    >
+			&nbsp;
+			   </td>
+			   <td    align=right class=ee133    >
+			&nbsp;
+			   </td>
+			   <td    class=ee132    >
+			&nbsp;
+			   </td>
+			   <td    class=ee134    >
+			&nbsp;
+			   </td>
+			   <td    class=ee121    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee116    >
+			&nbsp;
+			   </td>
+			   <td    align=right class=ee120    >
+			Initial Monthly Payment
+			   </td>
+			   <td    align=right class=ee135    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee136    >
+			     <input name="p1K10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:54pt' size="10"
+	    class=ee136 >
+			   </td>
+			   <td    align=center class=ee137    >
+			&nbsp;
+			   </td>
+			   <td    align=right class=ee138    >
+			&nbsp;
+			   </td>
+			   <td    align=center class=ee139    >
+			     <input name="p1N10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:61pt' size="11"
+	    class=ee139 >
+			   </td>
+			   <td    class=ee140    >
+			&nbsp;
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1S10" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1U10" type="text" value=""
+			      readonly="true"
+			      style='border:0px solid #000000;width:30pt' size="5"
+	    class=ee107 >
+			   </td>
+			   <td       >
+			     &nbsp; 
+			   </td>
+			   <td    align=center class=ee107    >
+			8
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1X10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee118    >
+			     <input name="p1Y10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee118 >
+			   </td>
+			   <td    align=center class=ee119    >
+			     <input name="p1Z10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee119 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AA10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:47pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AB10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:54pt' size="10"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AC10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AD10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AE10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AF10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+			   <td    align=center class=ee107    >
+			     <input name="p1AG10" type="text" value=0
+			      readonly="true"
+			      style='border:0px solid #000000;width:48pt' size="8"
+	    class=ee107 >
+			   </td>
+	       </tr>
+	       <tr> 
+			   <td  height="8"  style='height:6pt;'   class=ee100    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    >
+			     &nbsp; 
+			   </td>
+			   <td    class=ee110    

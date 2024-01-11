@@ -1,0 +1,13 @@
+ruby bin/wayback_machine_downloader http://www.notesfrommadrid.com/ --directory wa/ --to 20110129054007
+
+ruby bin/wayback_machine_downloader sadla.org.uk --directory sadlaorguk/
+
+ruby bin/wayback_machine_downloader https://owlreaders.club/ --directory owlreaders/ --to 20180811210020
+
+ruby bin/wayback_machine_downloader https://titipproperty.com/ --directory titipproperty/ --to 20220927133559
+
+ruby bin/wayback_machine_downloader https://maltaproperty.info/ --directory maltaproperty/ --to 20170212095452
+
+
+ruby bin/wayback_machine_downloader https://titipproperty.com/ --directory titipproperty/ --to 20170212095452
+

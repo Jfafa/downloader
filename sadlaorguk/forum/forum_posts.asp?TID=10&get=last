@@ -1,0 +1,302 @@
+<html>
+<head>
+<title>SADLA Discussion Forum: Please recommend me a reliable handyman.</title>
+<meta name="copyright" content="Copyright (C) 2001-2004 Bruce Corkhill" />
+
+<!-- Web Wiz Forums ver. 7.7 is written and produced by Bruce Corkhill ©2001-2004
+     	If you want your own Forum then goto http://www.webwizforums.com -->
+
+<script language="JavaScript">
+function CheckForm() {
+	var errorMsg = '';
+
+	//Check for message
+	if (document.frmAddMessage.message.value==''){
+		errorMsg += '\n\tMessage \t\t- Enter a Message to post';
+	}
+
+	//If there is aproblem with the form then display an error
+	if (errorMsg != ''){
+		msg = '_______________________________________________________________\n\n';
+		msg += 'The form has not been submitted because there are problem(s) with the form.\n';
+		msg += 'Please correct the problem(s) and re-submit the form.\n';
+		msg += '_______________________________________________________________\n\n';
+		msg += 'The following field(s) need to be corrected: -\n';
+
+		errorMsg += alert(msg + errorMsg + '\n\n');
+		return false;
+	}
+
+	//Reset the submition action
+	document.frmAddMessage.action = 'post_message.asp?PN=0'
+	document.frmAddMessage.target = '_self';
+	return true;
+}
+</script><!-- start of header file -->
+<script language="javascript" src="includes/default_javascript.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<link href="/forum/includes/default_style.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!--jAVA FOR NAVE CELL COLOR CHANGE -->
+<script language="Javascript"> 
+	<!-- 
+	function inCell(cell, newcolor) { 
+		if (!cell.contains(event.fromElement)) { 
+		cell.bgColor = newcolor; 
+		} 
+	} 
+
+	function outCell(cell, newcolor) { 
+		if (!cell.contains(event.toElement)) { 
+		cell.bgColor = newcolor;
+		} 
+	} 
+	
+	function go(loc) {
+		window.location.href = loc;
+	}
+//  End -->
+</script>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#ffffff">
+<table cellspacing="0" cellpadding="0" border="0" width="100%"><tr>
+	<td width="136" style="background:#009cf0; margin:10px; padding-top:10px;" valign="top">
+	<div align="center"><img src="/images/sadlaLogo.gif" width="82" height="135" border="0" alt=""></div>
+		<br />
+<div id=navvy>
+<table class="tooltext1" cellspacing="0" cellpadding="0" style="border:0px;">
+
+
+    <tr>
+    <TD class="tooltext1" ALIGN="LEFT" BGCOLOR="#6898d0" WIDTH="153" onmouseover="inCell(this, '#686868');" onmouseout="outCell(this, '#6898d0');" onclick="go('active_topics.asp')" height="27"> 
+     &nbsp;Active&nbsp;Topics
+    </TD></tr><tr>
+    <TD class="tooltext1" ALIGN="LEFT" BGCOLOR="#6898d0" WIDTH="153" onmouseover="inCell(this, '#686868');" onmouseout="outCell(this, '#6898d0');" onClick="go('members.asp')" height="27"> 
+      &nbsp;Member List
+    </TD></tr><tr>
+    <TD class="tooltext1" ALIGN="LEFT" BGCOLOR="#6898d0" WIDTH="153" onmouseover="inCell(this, '#686868');" onmouseout="outCell(this, '#6898d0');" onclick="go('search_form.asp?FID=7');" height="27"> 
+      &nbsp;Search
+    </TD></tr><tr>
+    <TD class="tooltext1" ALIGN="LEFT" BGCOLOR="#6898d0" WIDTH="153" onmouseover="inCell(this, '#686868');" onmouseout="outCell(this, '#6898d0');" onclick="go('help.asp');" height="27"> 
+      &nbsp;Help
+    </TD></tr>
+		 <tr>
+		 
+	<TD class="tooltext1" ALIGN="LEFT" BGCOLOR="#6898d0" WIDTH="153" onmouseover="inCell(this, '#686868');" onmouseout="outCell(this, '#6898d0');" onclick="go('registration_rules.asp?FID=7');" height="27">
+	&nbsp;Register
+  </TD></tr><tr> 
+  <TD class="tooltext1" ALIGN="LEFT" BGCOLOR="#6898d0" WIDTH="153" onmouseover="inCell(this, '#686868');" onmouseout="outCell(this, '#6898d0');" onclick="go('login_user.asp?FID=7');" height="27">
+	&nbsp;Login
+  </TD></tr>
+	<!-- closing cell -->
+	<TD class="tooltext1"> 
+  &nbsp;
+  </TD></tr><tr>
+	
+	<TD class="tooltext1" ALIGN="LEFT" BGCOLOR="#6898d0" WIDTH="153" onmouseover="inCell(this, '#686868');" onmouseout="outCell(this, '#6898d0');" onclick="go('/members/member-home.asp')" height="27"> 
+  &nbsp;<img src="\images\backarrow.gif">&nbsp;Members&nbsp;Home
+  </TD></tr><tr>
+
+	<TD class="tooltext1"> 
+  &nbsp;
+  </TD></tr>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- this included file needs to be surrounded by <tr><td> (if it is active) -->
+
+	
+  </table>
+</div>  <!-- end of navvy -->	 
+<!-- End of menu table -->
+
+</td>
+	<td valign="top">
+	
+	<!-- its a table to just hold the banner -->
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" height="30">
+      <tr bgcolor="#009CF0">
+       	  <td height="30"> 
+         	  <div align="center"><img src="/Images/slogan2.gif" width="486" height="25"
+           	alt="Sheffield District and Landlord Association" align="middle"> </div>
+         	</td>
+      </tr>
+    </table>
+		
+			<img src="../images/corner.gif" width="25" height="20" border="0" alt="">	
+			
+<!-- end of header file -->
+<!-- The navigation file -->
+<a name="top"></a>
+<table width="98%" border="0" cellspacing="0" cellpadding="3" align="center"><tr>
+  <td align="left" class="heading">Sadla General Discussion</td>
+</tr>
+ <tr>
+  <td align="left" width="95%" class="bold"><img src="forum_images/open_folder_icon.gif" border="0" align="absmiddle">&nbsp;<a href="default.asp" target="_self" class="boldLink">SADLA Discussion Forum</a> : <a href="forum_topics.asp?FID=7&PN=0" target="_self" class="boldLink">Sadla General Discussion</a>
+</td>
+  <td align="right" width="5%">
+</td>
+ </tr>
+</table>
+      <table width="98%" border="0" cellspacing="0" cellpadding="4" align="center">
+        <tr>
+         <td width="70%"><span class="lgText"><img src="forum_images/subject_folder.gif" alt="Subject" align="absmiddle"> Topic: Please recommend me a reliable handyman.</span>
+	</td>
+<td align="right"><a href="edit_post.asp?M=R&FID=7"  target="_self"><img src="forum_images/post_reply.gif"  border="0" align="absmiddle" alt="Post Reply"></a><a href="post_message_form.asp?FID=7"  target="_self"><img src="forum_images/new_post.gif"  border="0" align="absmiddle" alt="Post New Topic"></a>
+	</td>
+        </tr>
+      </table><table width="98%" border="0" cellspacing="0" cellpadding="1" bgcolor="#999999" align="center">
+ <tr>
+  <td>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+    <tr>
+     <td bgcolor="#FFFFFF">
+      <table width="100%" border="0" cellspacing="1" cellpadding="3">
+       <tr>
+        <td bgcolor="#A6AAD3" width="140" class="tHeading" background="forum_images/table_bg_image.gif" nowrap="nowrap">Author</td>
+        <td bgcolor="#A6AAD3" width="82%" class="tHeading" background="forum_images/table_bg_image.gif" nowrap="nowrap"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="20%" class="tHeading">Message</td>
+           <td width="80%" align="right" nowrap="nowrap"><a href="get_topic.asp?FID=7&TID=10&DIR=P" target="_self" class="npLink">&lt;&lt; Prev Topic</a> | <a href="get_topic.asp?FID=7&TID=10&DIR=N" target="_self" class="npLink">Next Topic&nbsp;&gt;&gt;</a></td>
+          </tr>
+         </table></td>
+         </tr>
+      <tr>
+        <td valign="top" background="" bgcolor="#F8F8FC" class="smText">
+         <a name="18"></a>
+         <span class="bold">Sadla</span><br />Admin Group<br />
+         <img src="forum_images/5_star_rating.gif" alt="Admin Group"><br /><br /><br />Joined: 14/October/2006<br />Location: United Kingdom
+<br />Online Status: Offline<br />Posts: 22
+         </td>
+        <td valign="top" background="" bgcolor="#F8F8FC" class="text">
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="80%" class="smText">Posted: 14/October/2006 at 22:44 | IP Logged
+		    </td>
+                    <td width="20%" align="right" nowrap="nowrap">
+            		 <a href="edit_post.asp?M=Q&PID=18&TPN=1"><img src="forum_images/quote_icon.gif" align="absmiddle" border="0" alt="Quote&nbsp;Sadla"></a>
+          </td>
+          </tr>
+          <tr>
+           <td colspan="2"><hr /></td>
+          </tr>
+         </table>
+<!-- Message body -->
+<P><strong>Originally posted by Akhtar</strong></P>
+<P>I would appreciate if anyone recommend me a handyman to do little jobs in my properties in Sheffield. I am a DIY disaster moreover I live in Chesterfieldn. I would highly appreciate your help.</P>
+<P>Best Regards</P>
+<!-- Message body ''"" -->
+        </td>
+       </tr>
+       <tr>
+        <td bgcolor="#F8F8FC" background=""><a href="#top" target="_self" class="npLink">Back to Top</a></td>
+        <td bgcolor="#F8F8FC" background="" class="text"><a href="JavaScript:openWin('pop_up_profile.asp?PF=7&FID=7','profile','toolbar=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=590,height=425')"><img src="forum_images/profile_icon.gif" border="0" alt="View&nbsp;Sadla's&nbsp;Profile" align="absmiddle"></a>
+         <a href="search_form.asp?KW=Sadla&SI=AR&FM=7&FID=7&TID=10&PN=0&TPN=1"><img src="forum_images/search_sm.gif" border="0" alt="Search for other posts by&nbsp;Sadla" align="absmiddle"></a>
+         <a href="http://www.sadla.org.uk" target="_blank"><img src="forum_images/home_icon.gif" border="0" alt="Visit Sadla's Homepage" align="absmiddle"></a>
+        </td>
+       </tr>
+       </tr>
+       <tr>
+        <td colspan="2" align="center" background="" bgcolor="#E1E2F0"><span style="font-size: 2px;">&nbsp;</span></td>
+      <tr>
+        <td valign="top" background="" bgcolor="#F4F4FB" class="smText">
+         <a name="27"></a>
+         <span class="bold">Ians</span><br />Newbie<br />
+         <img src="forum_images/1_star_rating.gif" alt="Newbie"><br /><br /><br />Joined: 08/November/2006
+<br />Online Status: Offline<br />Posts: 1
+         </td>
+        <td valign="top" background="" bgcolor="#F4F4FB" class="text">
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="80%" class="smText">Posted: 08/November/2006 at 17:31 | IP Logged
+		    </td>
+                    <td width="20%" align="right" nowrap="nowrap">
+            		 <a href="edit_post.asp?M=Q&PID=27&TPN=1"><img src="forum_images/quote_icon.gif" align="absmiddle" border="0" alt="Quote&nbsp;Ians"></a>
+          </td>
+          </tr>
+          <tr>
+           <td colspan="2"><hr /></td>
+          </tr>
+         </table>
+<!-- Message body -->
+<P>If you have found one would you mind posting&nbsp;details on&nbsp;here - as I am in the same boat.</P>
+<P>Cheers</P>
+<P>Ian</P>
+<!-- Message body ''"" -->
+        </td>
+       </tr>
+       <tr>
+        <td bgcolor="#F4F4FB" background=""><a href="#top" target="_self" class="npLink">Back to Top</a></td>
+        <td bgcolor="#F4F4FB" background="" class="text"><a href="JavaScript:openWin('pop_up_profile.asp?PF=77&FID=7','profile','toolbar=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=590,height=425')"><img src="forum_images/profile_icon.gif" border="0" alt="View&nbsp;Ians's&nbsp;Profile" align="absmiddle"></a>
+         <a href="search_form.asp?KW=Ians&SI=AR&FM=7&FID=7&TID=10&PN=0&TPN=1"><img src="forum_images/search_sm.gif" border="0" alt="Search for other posts by&nbsp;Ians" align="absmiddle"></a>
+        </td>
+       </tr>
+       </tr>
+       <tr>
+        <td colspan="2" align="center" background="" bgcolor="#E1E2F0"><span style="font-size: 2px;">&nbsp;</span></td>     </tr>
+    </table></td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+<br />
+<div align="center"><a name="reply"></a>
+	<p class="text">If you wish to post a reply to this topic you must first&nbsp;<a href="login_user.asp?FID=7" target="_self">login</a><br />If you are not already registered you must first&nbsp;<a href="registration_rules.asp?FID=7" target="_self">register</a></p>
+	  <table width="98%" border="0" cellspacing="0" cellpadding="3">
+            <tr><form></form></tr>
+             <tr>
+              <td>&nbsp;
+             </td>
+              <td align="right">
+<a href="edit_post.asp?M=R&FID=7"  target="_self"><img src="forum_images/post_reply.gif"  border="0" align="absmiddle" alt="Post Reply"></a><a href="post_message_form.asp?FID=7"  target="_self"><img src="forum_images/new_post.gif"  border="0" align="absmiddle" alt="Post New Topic"></a>
+		</td>
+	    </tr>
+         </table>
+ <table width="98%" border="0" cellspacing="0" cellpadding="1">
+  <tr>
+   <td width="30%">
+    <table width="380" border="0" cellspacing="0" cellpadding="2">
+     <tr>
+      <td>
+      <table width="300" border="0" cellspacing="0" cellpadding="1" align="center" bgcolor="#999999">
+       <tr>
+        <td>
+         <table width="100%" border="0" cellspacing="0" cellpadding="4" align="center" bgcolor="#F4F4FB" background="">
+          <tr>
+           <td align="center"> <a href="JavaScript:openWin('printer_friendly_posts.asp?TID=10','printer_friendly','toolbar=0,location=0,status=0,menubar=1,scrollbars=1,resizable=1,width=640,height=390')"><img src="forum_images/print_version.gif" align="absmiddle" border="0" alt="Printable version"></a>
+           <a href="JavaScript:openWin('printer_friendly_posts.asp?FID=7&TID=10','printer_friendly','toolbar=0,location=0,status=0,menubar=1,scrollbars=1,resizable=1,width=640,height=390')" class="smLink">Printable version</a>	 </td>
+        </tr>
+       </table>
+      </tr>
+     </table><br /><form>
+	<span class="text">Forum Jump</span>
+	 <select onChange="ForumJump(this)" name="SelectJumpForum">
+           <option value="" selected>-- Select Forum --</option>
+		<option value="">Sadla Organisation</option>
+		<option value="">General Discussion</option>
+		<option value="forum_topics.asp?FID=7">&nbsp;&nbsp;-&nbsp;Sadla General Discussion</option>
+		<option value="">Properties</option>
+		<option value="forum_topics.asp?FID=13">&nbsp;&nbsp;-&nbsp;Properties to Rent</option>
+		<option value="forum_topics.asp?FID=16">&nbsp;&nbsp;-&nbsp;Recommended Tradesmen and Services</option>
+		<option value="forum_topics.asp?FID=14">&nbsp;&nbsp;-&nbsp;Items for Sale</option>
+		<option value="forum_topics.asp?FID=15">&nbsp;&nbsp;-&nbsp;Properties for Sale</option>
+	</select></form></td>
+    </table></td>
+   <td width="70%" align="right" class="smText" nowrap="nowrap">You <span style="font-weight: bold;">cannot</span> post new topics in this forum<br />You <span style="font-weight: bold;">cannot</span> reply to topics in this forum<br />You <span style="font-weight: bold;">cannot</span> delete your posts in this forum<br />You <span style="font-weight: bold;">cannot</span> edit your posts in this forum<br />You <span style="font-weight: bold;">cannot</span> create polls in this forum<br />You <span style="font-weight: bold;">cannot</span> vote in polls in this forum<br /></td>
+  </tr>
+ </table>
+  <br /><span class="smText"><br /><br />This page was generated in 0.1870 seconds.</span></div><!-- footer -->
+
+	<table width="95%"><tr>
+ 		<td valign="middle" bgcolor="#FFFFFF" height="30"><div align="center" class="copyright">Copyright
+    	© 2002 Sheffield and District Landlord Association  |  Site by <a
+    	href="http://www.novate.co.uk" target="_blank" class="subtitle">Novate</a>
+    	</div></td>
+  	</tr>
+	</table>
+</table>
+</body>
+</html>

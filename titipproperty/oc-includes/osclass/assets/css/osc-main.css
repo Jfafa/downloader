@@ -1,0 +1,21 @@
+.osc-text-success {
+    color: #20d004;
+}
+.osc-text-danger {
+    color: #ff0000;
+}
+.osc-is-online {
+    animation: blink 1s linear infinite;
+}
+.osc-is-online,
+.osc-is-offline {
+    position: relative;
+    top: -10px;
+    font-size: 10px;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

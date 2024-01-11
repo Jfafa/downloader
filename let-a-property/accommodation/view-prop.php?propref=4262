@@ -1,0 +1,12 @@
+<br />
+<b>Warning</b>:  mysql_connect(): Can't connect to MySQL server on 'mysql2.openhosting.co.uk' (10060) in <b>D:\Webs\let-a-property.info\wwwroot\accommodation\view-prop.php</b> on line <b>9</b><br />
+<br />
+<b>Warning</b>:  mysql_select_db(): Can't connect to MySQL server on 'localhost' (10061) in <b>D:\Webs\let-a-property.info\wwwroot\accommodation\view-prop.php</b> on line <b>12</b><br />
+<br />
+<b>Warning</b>:  mysql_select_db(): A link to the server could not be established in <b>D:\Webs\let-a-property.info\wwwroot\accommodation\view-prop.php</b> on line <b>12</b><br />
+<br />
+<b>Warning</b>:  mysql_query(): supplied argument is not a valid MySQL-Link resource in <b>D:\Webs\let-a-property.info\wwwroot\accommodation\view-prop.php</b> on line <b>16</b><br />
+<br />
+<b>Warning</b>:  mysql_query(): supplied argument is not a valid MySQL-Link resource in <b>D:\Webs\let-a-property.info\wwwroot\accommodation\view-prop.php</b> on line <b>20</b><br />
+<br />
+<b>Warning</b>:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in <b>D:\Webs\let-a-property.info\wwwroot\accommodation\view-prop.php</b> on line <b>22</b><br />
